@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SepToken 全球指数次日下跌风险监测">
+  <title>SepToken Risk Monitor</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="SepToken 首页">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36"><path class="path-continuous" d="M7 10c7 0 6 8 12 8h3"/><path class="path-discrete" d="M7 26h4v-4h4v-4h7"/><rect x="22" y="13" width="10" height="10" rx="2"/></svg></span>
+      <span>SepToken</span>
+    </a>
+    <div class="top-actions"><nav class="mini-nav"><a id="contact-nav" href="#contact">联系</a><a id="support-nav" href="#support">支持研究</a></nav><div class="run-state"><span class="pulse"></span><span id="run-label">读取最新结果</span></div><button id="language-toggle" class="language-toggle" type="button" aria-label="Switch to English">EN</button></div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">GLOBAL DOWNSIDE MONITOR</p>
+        <h1 id="hero-title">下一交易日<br><span>下跌风险</span></h1>
+        <p id="hero-copy" class="lede">连续价格预测与离散状态概率的融合风险排名。风险分数表示其在验证分布中的百分位，并非真实下跌概率。</p>
+      </div>
+      <div class="hero-side">
+        <figure class="hero-guardian" aria-label="小熊保护孩子们免受恶龙威胁的插画">
+          <img src="assets/bear-protector-hero.png" alt="一只勇敢的小熊持剑站在孩子们身前，面对恶龙">
+        </figure>
+        <div class="update-card">
+          <p id="updated-label">最近更新</p>
+          <strong id="updated-at">—</strong>
+          <span id="model-version">模型版本 —</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary" aria-label="市场风险概览">
+      <div><span id="covered-label">覆盖指数</span><strong id="market-count">10</strong></div>
+      <div><span id="ready-label">已更新</span><strong id="ready-count">0</strong></div>
+      <div><span id="high-risk-label">风险预警</span><strong id="risk-count">0</strong></div>
+      <div><span id="threshold-label">决策阈值</span><strong id="threshold">52.71%</strong></div>
+    </section>
+
+    <section class="board">
+      <div class="section-head">
+        <div><p class="eyebrow">LATEST FORECASTS</p><h2 id="ranking-title">指数风险排序</h2></div>
+        <div class="legend"><span><i class="dot low"></i><b id="low-label">低风险</b></span><span><i class="dot watch"></i><b id="watch-label">关注</b></span><span><i class="dot elevated"></i><b id="elevated-label">较高</b></span><span><i class="dot very-high"></i><b id="very-high-label">很高</b></span></div>
+      </div>
+      <div id="market-grid" class="market-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="method-note">
+      <div><span>01</span><p id="method-1"><strong>10日 OHLC</strong>按照最后一个输入日逐特征归一化。</p></div>
+      <div><span>02</span><p id="method-2"><strong>双路径推理</strong>连续路径与离散状态路径独立产生风险分数。</p></div>
+      <div><span>03</span><p id="method-3"><strong>验证分布校准</strong>两条路径转换为百分位后按固定权重融合。</p></div>
+    </section>
+
+    <section id="contact" class="contact-panel">
+      <div><p class="eyebrow">CONTACT</p><h2 id="contact-title">联系与交流</h2></div>
+      <div class="contact-copy"><p id="contact-copy">欢迎通过邮件咨询、讨论研究或交流使用体验。</p><a href="mailto:siriuschuessex@gmail.com">siriuschuessex@gmail.com</a></div>
+    </section>
+
+    <section id="support" class="support-panel">
+      <div class="support-intro"><p class="eyebrow">SUPPORT THE RESEARCH</p><h2 id="support-title">支持我们的研究</h2><p id="support-copy">如果这个预警网站对你有所帮助，或你希望支持后续研究，欢迎通过支付宝或 PayPal 小额赞助。感谢你的支持。</p></div>
+      <div class="donation-grid">
+        <figure><div class="qr-frame"><img src="assets/alipay-qr.jpg" alt="支付宝赞助二维码"></div><figcaption id="alipay-label">支付宝</figcaption></figure>
+        <figure><div class="qr-frame"><img src="assets/paypal-qr.jpg" alt="PayPal donation QR code"></div><figcaption>PayPal</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>SepToken Research Monitor</span><span id="disclaimer">仅供研究展示，不构成投资建议</span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
