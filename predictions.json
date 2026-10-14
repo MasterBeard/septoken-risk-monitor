@@ -1,6 +1,6 @@
 {
-  "run_id": "2026-10-13T15-03-32Z",
-  "updated_at": "2026-10-13 15:03 UTC",
+  "run_id": "2026-10-14T03-02-01Z",
+  "updated_at": "2026-10-14 03:02 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
   "markets": [
@@ -8,22 +8,15 @@
       "id": "sp500",
       "name": "S&P 500",
       "region": "United States",
-      "data_date": "2026-10-12",
-      "fused_risk": 0.04645187165775401,
-      "continuous_risk": 0.07179144385026738,
-      "discrete_risk": 0.0393048128342246,
-      "predicted_price_ratio": 1.004048466682434,
-      "discrete_downside_probability": 0.04172126203775406,
+      "data_date": "2026-10-13",
+      "fused_risk": 0.025204545454545455,
+      "continuous_risk": 0.029010695187165775,
+      "discrete_risk": 0.02413101604278075,
+      "predicted_price_ratio": 1.0046387910842896,
+      "discrete_downside_probability": 0.039076659828424454,
       "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-15",
-          "open": 7612.2998,
-          "close": 7585.73,
-          "high": 7617.2598,
-          "low": 7572.6899
-        },
         {
           "date": "2026-09-16",
           "open": 7601.25,
@@ -156,6 +149,13 @@
           "close": 7807.2402,
           "high": 7821.6699,
           "low": 7796.9399
+        },
+        {
+          "date": "2026-10-13",
+          "open": 7795.27,
+          "close": 7805.4502,
+          "high": 7814.1499,
+          "low": 7786.1099
         }
       ]
     },
@@ -163,22 +163,15 @@
       "id": "dow",
       "name": "Dow Jones",
       "region": "United States",
-      "data_date": "2026-10-12",
-      "fused_risk": 0.15359224598930482,
-      "continuous_risk": 0.4073529411764706,
-      "discrete_risk": 0.0820187165775401,
-      "predicted_price_ratio": 1.0009925365447998,
-      "discrete_downside_probability": 0.049544885754585266,
+      "data_date": "2026-10-13",
+      "fused_risk": 0.3173903743315508,
+      "continuous_risk": 0.22239304812834224,
+      "discrete_risk": 0.3441844919786096,
+      "predicted_price_ratio": 1.0029383897781372,
+      "discrete_downside_probability": 0.10025251656770706,
       "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-15",
-          "open": 52303.2383,
-          "close": 52093.1094,
-          "high": 52336.6094,
-          "low": 51875.6484
-        },
         {
           "date": "2026-09-16",
           "open": 52115.3984,
@@ -311,6 +304,13 @@
           "close": 51850.5508,
           "high": 51928.1016,
           "low": 51718.6016
+        },
+        {
+          "date": "2026-10-13",
+          "open": 52092.9883,
+          "close": 51670.1016,
+          "high": 52317.3203,
+          "low": 51587.6719
         }
       ]
     },
@@ -319,10 +319,10 @@
       "name": "DAX 30",
       "region": "Germany",
       "data_date": "2026-10-13",
-      "fused_risk": 0.525346256684492,
-      "continuous_risk": 0.6149732620320856,
+      "fused_risk": 0.5227874331550803,
+      "continuous_risk": 0.6033422459893049,
       "discrete_risk": 0.5000668449197861,
-      "predicted_price_ratio": 0.9989662766456604,
+      "predicted_price_ratio": 0.9991022348403931,
       "discrete_downside_probability": 0.12082991003990173,
       "signal": false,
       "status": "formal",
@@ -463,9 +463,9 @@
         {
           "date": "2026-10-13",
           "open": 25316.71,
-          "close": 25297.43,
+          "close": 25259.9,
           "high": 25453.29,
-          "low": 25285.05
+          "low": 25229.98
         }
       ]
     },
@@ -474,11 +474,11 @@
       "name": "FTSE 100",
       "region": "United Kingdom",
       "data_date": "2026-10-13",
-      "fused_risk": 0.28134358288770056,
-      "continuous_risk": 0.4062165775401069,
-      "discrete_risk": 0.24612299465240642,
-      "predicted_price_ratio": 1.00100576877594,
-      "discrete_downside_probability": 0.07778259366750717,
+      "fused_risk": 0.18990775401069518,
+      "continuous_risk": 0.38495989304812833,
+      "discrete_risk": 0.13489304812834224,
+      "predicted_price_ratio": 1.001285195350647,
+      "discrete_downside_probability": 0.061600372195243835,
       "signal": false,
       "status": "formal",
       "candles": [
@@ -618,9 +618,9 @@
         {
           "date": "2026-10-13",
           "open": 10656.18,
-          "close": 10705.26,
+          "close": 10650.33,
           "high": 10762.01,
-          "low": 10656.15
+          "low": 10641.98
         }
       ]
     },
@@ -629,10 +629,10 @@
       "name": "CAC 40",
       "region": "France",
       "data_date": "2026-10-13",
-      "fused_risk": 0.6916564171122995,
-      "continuous_risk": 0.590975935828877,
+      "fused_risk": 0.6902299465240642,
+      "continuous_risk": 0.5844919786096257,
       "discrete_risk": 0.7200534759358289,
-      "predicted_price_ratio": 0.9992259740829468,
+      "predicted_price_ratio": 0.9992838501930237,
       "discrete_downside_probability": 0.16236606240272522,
       "signal": true,
       "status": "formal",
@@ -773,9 +773,9 @@
         {
           "date": "2026-10-13",
           "open": 7853.5,
-          "close": 7831.89,
+          "close": 7827.63,
           "high": 7878.16,
-          "low": 7825.3
+          "low": 7812.06
         }
       ]
     },
@@ -783,22 +783,15 @@
       "id": "nikkei225",
       "name": "Nikkei 225",
       "region": "Japan",
-      "data_date": "2026-10-13",
-      "fused_risk": 0.7624652406417113,
-      "continuous_risk": 0.09685828877005348,
-      "discrete_risk": 0.9502005347593583,
-      "predicted_price_ratio": 1.0038342475891113,
-      "discrete_downside_probability": 0.27076616883277893,
+      "data_date": "2026-10-14",
+      "fused_risk": 0.7032513368983958,
+      "continuous_risk": 0.12513368983957218,
+      "discrete_risk": 0.8663101604278075,
+      "predicted_price_ratio": 1.003637433052063,
+      "discrete_downside_probability": 0.2057931125164032,
       "signal": true,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-10",
-          "open": 64768.53,
-          "close": 65270.95,
-          "high": 65270.95,
-          "low": 64186.68
-        },
         {
           "date": "2026-09-11",
           "open": 64276.82,
@@ -931,6 +924,13 @@
           "close": 67777.52,
           "high": 68710.99,
           "low": 67058.56
+        },
+        {
+          "date": "2026-10-14",
+          "open": 67942.2266,
+          "close": 67938.6094,
+          "high": 68148.9766,
+          "low": 67829.6719
         }
       ]
     },
@@ -1403,22 +1403,15 @@
       "id": "nasdaq",
       "name": "NASDAQ",
       "region": "United States",
-      "data_date": "2026-10-12",
-      "fused_risk": 0.5870133689839573,
-      "continuous_risk": 0.05655080213903743,
-      "discrete_risk": 0.7366310160427807,
-      "predicted_price_ratio": 1.0042048692703247,
-      "discrete_downside_probability": 0.16610269248485565,
-      "signal": true,
+      "data_date": "2026-10-13",
+      "fused_risk": 0.30095855614973266,
+      "continuous_risk": 0.2356283422459893,
+      "discrete_risk": 0.3193850267379679,
+      "predicted_price_ratio": 1.002821683883667,
+      "discrete_downside_probability": 0.09443771839141846,
+      "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-15",
-          "open": 26140.2266,
-          "close": 25981.5703,
-          "high": 26172.1211,
-          "low": 25943.3105
-        },
         {
           "date": "2026-09-16",
           "open": 26108.4629,
@@ -1551,6 +1544,13 @@
           "close": 27245.9023,
           "high": 27376.6602,
           "low": 27219.4199
+        },
+        {
+          "date": "2026-10-13",
+          "open": 27138.7285,
+          "close": 27204.3809,
+          "high": 27277.8828,
+          "low": 27116.0801
         }
       ]
     }

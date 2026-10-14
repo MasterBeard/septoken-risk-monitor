@@ -1,0 +1,10 @@
+{
+  "run_id": "2026-10-14T03-02-01Z",
+  "created_at": "2026-10-14 03:02 UTC",
+  "input_file": "inputs_ohlc.json",
+  "input_sha256": "fc05c80668967f7d64d9e65032c6074e41b30d06fce2025dc6b33495d4a7162a",
+  "output_file": "outputs_predictions.json",
+  "output_sha256": "3907a4ee994bc97efe3d13ca2b16f6a91a9bdbc2b4b9b3492744ba626bcd7c9b",
+  "model_manifest": "/Users/chusirius/Documents/Codex/2026-09-25/users-chusirius-downloads-septoken-zip-septoken/septoken-daily-webapp/checkpoints/website_baseline_seed5337/manifest.json",
+  "market_count": 10
+}
