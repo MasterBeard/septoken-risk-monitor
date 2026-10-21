@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-10-21T19-05-12Z",
+  "created_at": "2026-10-21 19:05 UTC",
+  "input_file": "inputs_ohlc.json",
+  "input_sha256": "f954c9003afb4ec98e14462daca60ac2c72753c38dd7863f868273f9b969eff0",
+  "output_file": "outputs_predictions.json",
+  "output_sha256": "f3fd679308e48fb0cb8cd6a921013ad93cebb431f3d4138347b11897be2a7303",
+  "model_manifest": "/home/runner/work/septoken-risk-monitor-model/septoken-risk-monitor-model/checkpoints/website_baseline_seed5337/manifest.json",
+  "market_count": 16,
+  "performance_file": "monitoring_performance.json",
+  "performance_sha256": "55a51a2f8d27c418901bbf5a64968caf3cee66321526d6c6c5aa8922c5ebc7e3"
+}
