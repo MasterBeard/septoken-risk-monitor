@@ -1,0 +1,45 @@
+name: Ensure GitHub Pages is current
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "favicon.svg"
+      - "predictions.json"
+      - "assets/**"
+      - ".github/workflows/ensure-pages-build.yml"
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: ensure-pages-build
+  cancel-in-progress: true
+
+jobs:
+  ensure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger a Pages build when deployment is stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          TARGET_SHA: ${{ github.sha }}
+        shell: bash
+        run: |
+          deployed_sha="$(gh api "repos/$REPOSITORY/pages/builds/latest" --jq '.commit // ""')"
+          echo "Repository HEAD: $TARGET_SHA"
+          echo "Latest Pages build: $deployed_sha"
+          if [ "$deployed_sha" = "$TARGET_SHA" ]; then
+            echo "GitHub Pages is already current."
+          else
+            gh api --method POST "repos/$REPOSITORY/pages/builds"
+            echo "Triggered a GitHub Pages build for $TARGET_SHA."
+          fi
