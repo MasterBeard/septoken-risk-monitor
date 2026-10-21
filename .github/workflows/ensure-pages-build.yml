@@ -12,7 +12,7 @@ on:
       - "assets/**"
       - ".github/workflows/ensure-pages-build.yml"
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
