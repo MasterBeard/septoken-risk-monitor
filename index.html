@@ -6,7 +6,7 @@
   <meta name="description" content="SepToken 全球指数次日下跌风险监测">
   <title>SepToken Risk Monitor</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=20261020-bars2">
+  <link rel="stylesheet" href="styles.css?v=20261021-range">
 </head>
 <body>
   <header class="topbar">
@@ -58,12 +58,12 @@
       </div>
       <div class="baseline-grid">
         <div><span id="downside-baseline-label">验证集次日跌超1%平均率</span><strong id="downside-baseline">—</strong><small id="downside-baseline-count">—</small></div>
-        <div><span id="decline-baseline-label">验证集次日任何下跌平均率</span><strong id="decline-baseline">—</strong><small id="decline-baseline-count">—</small></div>
+        <div><span id="decline-baseline-label">验证集次日任意下跌平均率</span><strong id="decline-baseline">—</strong><small id="decline-baseline-count">—</small></div>
       </div>
       <div id="performance-charts" class="performance-charts" aria-live="polite"></div>
       <div class="performance-table-wrap">
         <table class="performance-table">
-          <thead><tr><th id="perf-threshold">风险百分位</th><th id="perf-samples">已评估数量</th><th id="perf-down-count">跌超1%次数</th><th id="perf-down-rate">跌超1%命中率</th><th id="perf-down-base">验证集平均率</th><th id="perf-any-count">任何下跌次数</th><th id="perf-any-rate">任何下跌占比</th><th id="perf-any-base">验证集平均率</th></tr></thead>
+          <thead><tr><th id="perf-threshold">风险百分位</th><th id="perf-samples">已评估数量</th><th id="perf-down-count">跌超1%次数</th><th id="perf-down-rate">跌超1%命中率</th><th id="perf-down-base">验证集平均率</th><th id="perf-any-count">任意下跌次数</th><th id="perf-any-rate">任意下跌占比</th><th id="perf-any-base">验证集平均率</th></tr></thead>
           <tbody id="performance-rows"><tr><td colspan="8">—</td></tr></tbody>
         </table>
       </div>
@@ -91,7 +91,7 @@
   </main>
 
   <footer><span>SepToken Research Monitor</span><span id="disclaimer">仅供研究展示，不构成投资建议</span></footer>
-  <script src="app.js?v=20261020-bars2" defer></script>
+  <script src="app.js?v=20261021-range" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"57e35ef19a564343965f38237c4ad2d4"}'></script>
   <!-- End Cloudflare Web Analytics -->
