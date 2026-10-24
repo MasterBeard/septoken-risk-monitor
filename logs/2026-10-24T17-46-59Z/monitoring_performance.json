@@ -1,0 +1,49 @@
+{
+  "definition": "latest prediction per market and prediction date; outcome uses the next available trading close",
+  "unique_predictions": 149,
+  "evaluable_predictions": 133,
+  "evaluation_start_date": "2026-09-30",
+  "evaluation_end_date": "2026-10-23",
+  "validation_baseline": {
+    "period": "2019-01-01 to 2024-12-31",
+    "samples": 14960,
+    "downside_over_1pct_count": 2141,
+    "downside_over_1pct_rate": 0.1431149732620321,
+    "any_decline_count": 7013,
+    "any_decline_rate": 0.4687834224598931
+  },
+  "thresholds": [
+    {
+      "threshold": 0.7,
+      "evaluable_count": 44,
+      "downside_over_1pct_count": 11,
+      "downside_over_1pct_rate": 0.25,
+      "any_decline_count": 24,
+      "any_decline_rate": 0.5454545454545454
+    },
+    {
+      "threshold": 0.75,
+      "evaluable_count": 36,
+      "downside_over_1pct_count": 10,
+      "downside_over_1pct_rate": 0.2777777777777778,
+      "any_decline_count": 20,
+      "any_decline_rate": 0.5555555555555556
+    },
+    {
+      "threshold": 0.8,
+      "evaluable_count": 26,
+      "downside_over_1pct_count": 7,
+      "downside_over_1pct_rate": 0.2692307692307692,
+      "any_decline_count": 14,
+      "any_decline_rate": 0.5384615384615384
+    },
+    {
+      "threshold": 0.85,
+      "evaluable_count": 19,
+      "downside_over_1pct_count": 5,
+      "downside_over_1pct_rate": 0.2631578947368421,
+      "any_decline_count": 10,
+      "any_decline_rate": 0.5263157894736842
+    }
+  ]
+}
