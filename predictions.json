@@ -1,6 +1,6 @@
 {
-  "run_id": "2026-10-29T03-59-24Z",
-  "updated_at": "2026-10-29 03:59 UTC",
+  "run_id": "2026-10-29T10-34-24Z",
+  "updated_at": "2026-10-29 10:34 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
   "markets": [
@@ -13,7 +13,7 @@
       "continuous_risk": 0.5701203208556149,
       "discrete_risk": 0.05267379679144385,
       "predicted_price_ratio": 0.9994127750396729,
-      "discrete_downside_probability": 0.04500619322061539,
+      "discrete_downside_probability": 0.04500618204474449,
       "signal": false,
       "status": "formal",
       "candles": [
@@ -168,7 +168,7 @@
       "continuous_risk": 0.8028074866310161,
       "discrete_risk": 0.10046791443850267,
       "predicted_price_ratio": 0.9986820220947266,
-      "discrete_downside_probability": 0.05363699048757553,
+      "discrete_downside_probability": 0.05363701656460762,
       "signal": false,
       "status": "formal",
       "candles": [
@@ -319,11 +319,11 @@
       "name": "DAX 30",
       "region": "Germany",
       "data_date": "2026-10-28",
-      "fused_risk": 0.08568048128342247,
-      "continuous_risk": 0.22118983957219251,
+      "fused_risk": 0.0856951871657754,
+      "continuous_risk": 0.2212566844919786,
       "discrete_risk": 0.047459893048128345,
-      "predicted_price_ratio": 1.002948522567749,
-      "discrete_downside_probability": 0.04380929842591286,
+      "predicted_price_ratio": 1.0029484033584595,
+      "discrete_downside_probability": 0.043809305876493454,
       "signal": false,
       "status": "formal",
       "candles": [
@@ -474,11 +474,11 @@
       "name": "FTSE 100",
       "region": "United Kingdom",
       "data_date": "2026-10-28",
-      "fused_risk": 0.6122727272727273,
-      "continuous_risk": 0.8406417112299466,
+      "fused_risk": 0.6123021390374331,
+      "continuous_risk": 0.8407754010695188,
       "discrete_risk": 0.5478609625668449,
-      "predicted_price_ratio": 0.9986556172370911,
-      "discrete_downside_probability": 0.1297329068183899,
+      "predicted_price_ratio": 0.9986555576324463,
+      "discrete_downside_probability": 0.12973296642303467,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -632,8 +632,8 @@
       "fused_risk": 0.5988997326203208,
       "continuous_risk": 0.5940508021390374,
       "discrete_risk": 0.6002673796791443,
-      "predicted_price_ratio": 0.9991995096206665,
-      "discrete_downside_probability": 0.13907961547374725,
+      "predicted_price_ratio": 0.9991993308067322,
+      "discrete_downside_probability": 0.13907963037490845,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -784,12 +784,12 @@
       "name": "Nikkei 225",
       "region": "Japan",
       "data_date": "2026-10-29",
-      "fused_risk": 0.3622673796791444,
-      "continuous_risk": 0.4621657754010695,
-      "discrete_risk": 0.3340909090909091,
-      "predicted_price_ratio": 1.0004366636276245,
-      "discrete_downside_probability": 0.09805339574813843,
-      "signal": false,
+      "fused_risk": 0.6977794117647059,
+      "continuous_risk": 0.9532085561497327,
+      "discrete_risk": 0.6257352941176471,
+      "predicted_price_ratio": 0.9981812238693237,
+      "discrete_downside_probability": 0.14391006529331207,
+      "signal": true,
       "status": "formal",
       "candles": [
         {
@@ -928,9 +928,9 @@
         {
           "date": "2026-10-29",
           "open": 64126.25,
-          "close": 63989.0586,
-          "high": 64797.3281,
-          "low": 63989.0586
+          "close": 64659.47,
+          "high": 64831.29,
+          "low": 63749.2
         }
       ]
     },
@@ -942,8 +942,8 @@
       "fused_risk": 0.8169278074866311,
       "continuous_risk": 0.9338235294117647,
       "discrete_risk": 0.7839572192513369,
-      "predicted_price_ratio": 0.998516321182251,
-      "discrete_downside_probability": 0.17826725542545319,
+      "predicted_price_ratio": 0.9985163807868958,
+      "discrete_downside_probability": 0.178267240524292,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -1093,22 +1093,15 @@
       "id": "sse50",
       "name": "Shanghai Composite",
       "region": "Mainland China",
-      "data_date": "2026-10-28",
-      "fused_risk": 0.7655347593582887,
-      "continuous_risk": 0.8734625668449197,
-      "discrete_risk": 0.7350935828877005,
-      "predicted_price_ratio": 0.9986281991004944,
-      "discrete_downside_probability": 0.16576291620731354,
+      "data_date": "2026-10-29",
+      "fused_risk": 0.7211350267379679,
+      "continuous_risk": 0.7299465240641712,
+      "discrete_risk": 0.7186497326203208,
+      "predicted_price_ratio": 0.9987283945083618,
+      "discrete_downside_probability": 0.16209664940834045,
       "signal": true,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-23",
-          "open": 3951.366,
-          "close": 3936.52,
-          "high": 3951.523,
-          "low": 3934.459
-        },
         {
           "date": "2026-09-24",
           "open": 3925.323,
@@ -1241,6 +1234,13 @@
           "close": 3681.469,
           "high": 3684.491,
           "low": 3652.366
+        },
+        {
+          "date": "2026-10-29",
+          "open": 3676.773,
+          "close": 3651.434,
+          "high": 3678.458,
+          "low": 3645.26
         }
       ]
     },
@@ -1248,22 +1248,15 @@
       "id": "hs300",
       "name": "CSI 300",
       "region": "Mainland China",
-      "data_date": "2026-10-28",
-      "fused_risk": 0.7072192513368984,
-      "continuous_risk": 0.5716577540106952,
-      "discrete_risk": 0.7454545454545455,
-      "predicted_price_ratio": 0.9993951320648193,
-      "discrete_downside_probability": 0.16811180114746094,
+      "data_date": "2026-10-29",
+      "fused_risk": 0.7609532085561498,
+      "continuous_risk": 0.7512032085561497,
+      "discrete_risk": 0.7637032085561497,
+      "predicted_price_ratio": 0.9987141489982605,
+      "discrete_downside_probability": 0.17267875373363495,
       "signal": true,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-09-23",
-          "open": 4547.611,
-          "close": 4517.279,
-          "high": 4547.693,
-          "low": 4513.449
-        },
         {
           "date": "2026-09-24",
           "open": 4499.857,
@@ -1396,6 +1389,13 @@
           "close": 4083.87,
           "high": 4088.023,
           "low": 4054.112
+        },
+        {
+          "date": "2026-10-29",
+          "open": 4075.473,
+          "close": 4041.838,
+          "high": 4075.473,
+          "low": 4030.23
         }
       ]
     },
@@ -1408,7 +1408,7 @@
       "continuous_risk": 0.6343582887700535,
       "discrete_risk": 0.12954545454545455,
       "predicted_price_ratio": 0.99885094165802,
-      "discrete_downside_probability": 0.05994487181305885,
+      "discrete_downside_probability": 0.059944868087768555,
       "signal": false,
       "status": "formal",
       "candles": [
@@ -1562,8 +1562,8 @@
       "fused_risk": 0.5566697860962567,
       "continuous_risk": 0.5618315508021391,
       "discrete_risk": 0.5552139037433155,
-      "predicted_price_ratio": 0.9994704723358154,
-      "discrete_downside_probability": 0.13107316195964813,
+      "predicted_price_ratio": 0.9994703531265259,
+      "discrete_downside_probability": 0.13107319176197052,
       "signal": true,
       "status": "experimental",
       "candles": [
@@ -1717,8 +1717,8 @@
       "fused_risk": 0.15499064171122995,
       "continuous_risk": 0.5957219251336898,
       "discrete_risk": 0.03068181818181818,
-      "predicted_price_ratio": 0.9991777539253235,
-      "discrete_downside_probability": 0.04042312502861023,
+      "predicted_price_ratio": 0.9991776943206787,
+      "discrete_downside_probability": 0.04042312130331993,
       "signal": false,
       "status": "experimental",
       "candles": [
@@ -1872,7 +1872,7 @@
       "fused_risk": 0.9696310160427808,
       "continuous_risk": 0.9484625668449198,
       "discrete_risk": 0.9756016042780749,
-      "predicted_price_ratio": 0.9983698129653931,
+      "predicted_price_ratio": 0.9983696937561035,
       "discrete_downside_probability": 0.3203366696834564,
       "signal": true,
       "status": "experimental",
@@ -2024,10 +2024,10 @@
       "name": "KOSPI",
       "region": "South Korea",
       "data_date": "2026-10-29",
-      "fused_risk": 0.7717192513368984,
-      "continuous_risk": 0.3356283422459893,
+      "fused_risk": 0.7932192513368985,
+      "continuous_risk": 0.433355614973262,
       "discrete_risk": 0.8947192513368984,
-      "predicted_price_ratio": 1.001930594444275,
+      "predicted_price_ratio": 1.0007085800170898,
       "discrete_downside_probability": 0.21950043737888336,
       "signal": true,
       "status": "experimental",
@@ -2168,7 +2168,7 @@
         {
           "date": "2026-10-29",
           "open": 6017.2202,
-          "close": 5847.8999,
+          "close": 5937.6602,
           "high": 6100.1099,
           "low": 5817.9199
         }
@@ -2178,22 +2178,15 @@
       "id": "sensex",
       "name": "SENSEX",
       "region": "India",
-      "data_date": "2026-10-28",
-      "fused_risk": 0.5889465240641711,
-      "continuous_risk": 0.6756016042780749,
-      "discrete_risk": 0.5645053475935828,
-      "predicted_price_ratio": 0.9987758994102478,
-      "discrete_downside_probability": 0.1326541155576706,
-      "signal": true,
+      "data_date": "2026-10-29",
+      "fused_risk": 0.46540240641711234,
+      "continuous_risk": 0.5754679144385026,
+      "discrete_risk": 0.4343582887700535,
+      "predicted_price_ratio": 0.9993622303009033,
+      "discrete_downside_probability": 0.10945054888725281,
+      "signal": false,
       "status": "experimental",
       "candles": [
-        {
-          "date": "2026-09-29",
-          "open": 72633.68,
-          "close": 72529.07,
-          "high": 72684.9,
-          "low": 72064.0
-        },
         {
           "date": "2026-09-30",
           "open": 72441.15,
@@ -2326,6 +2319,13 @@
           "close": 73246.0313,
           "high": 73525.4375,
           "low": 72603.5703
+        },
+        {
+          "date": "2026-10-29",
+          "open": 73268.4688,
+          "close": 73945.2578,
+          "high": 74007.7031,
+          "low": 73181.8984
         }
       ]
     },
@@ -2334,11 +2334,11 @@
       "name": "ASX 200",
       "region": "Australia",
       "data_date": "2026-10-29",
-      "fused_risk": 0.206201871657754,
-      "continuous_risk": 0.8578877005347594,
+      "fused_risk": 0.20621657754010694,
+      "continuous_risk": 0.8579545454545454,
       "discrete_risk": 0.022393048128342245,
-      "predicted_price_ratio": 0.9986423850059509,
-      "discrete_downside_probability": 0.03848112002015114,
+      "predicted_price_ratio": 0.9986423254013062,
+      "discrete_downside_probability": 0.038481105118989944,
       "signal": false,
       "status": "experimental",
       "candles": [
@@ -2487,8 +2487,8 @@
   ],
   "monitoring_performance": {
     "definition": "latest prediction per market and prediction date; outcome uses the next available trading close",
-    "unique_predictions": 198,
-    "evaluable_predictions": 182,
+    "unique_predictions": 201,
+    "evaluable_predictions": 185,
     "evaluation_start_date": "2026-09-30",
     "evaluation_end_date": "2026-10-29",
     "validation_baseline": {
@@ -2502,19 +2502,19 @@
     "thresholds": [
       {
         "threshold": 0.7,
-        "evaluable_count": 62,
-        "downside_over_1pct_count": 14,
-        "downside_over_1pct_rate": 0.22580645161290322,
-        "any_decline_count": 31,
-        "any_decline_rate": 0.5
+        "evaluable_count": 64,
+        "downside_over_1pct_count": 15,
+        "downside_over_1pct_rate": 0.234375,
+        "any_decline_count": 33,
+        "any_decline_rate": 0.515625
       },
       {
         "threshold": 0.75,
-        "evaluable_count": 52,
+        "evaluable_count": 53,
         "downside_over_1pct_count": 13,
-        "downside_over_1pct_rate": 0.25,
-        "any_decline_count": 27,
-        "any_decline_rate": 0.5192307692307693
+        "downside_over_1pct_rate": 0.24528301886792453,
+        "any_decline_count": 28,
+        "any_decline_rate": 0.5283018867924528
       },
       {
         "threshold": 0.8,
