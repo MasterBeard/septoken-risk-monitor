@@ -6,7 +6,7 @@
   <meta name="description" content="SepToken 全球指数次日下跌风险监测">
   <title>SepToken Risk Monitor</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=20261021-range">
+  <link rel="stylesheet" href="styles.css?v=20261104-three-paths">
 </head>
 <body>
   <header class="topbar">
@@ -51,23 +51,40 @@
       <div id="market-grid" class="market-grid" aria-live="polite"></div>
     </section>
 
-    <section class="performance-panel" aria-labelledby="performance-title">
+    <section id="performance" class="performance-panel" aria-labelledby="performance-title">
       <div class="section-head performance-head">
-        <div><p class="eyebrow">REALIZED PERFORMANCE</p><h2 id="performance-title">历史命中表现</h2></div>
-        <p id="performance-summary" class="performance-summary">等待足够的下一交易日数据。</p>
+        <div><p id="performance-eyebrow" class="eyebrow">历史回顾</p><h2 id="performance-title">三路径表现</h2></div>
+        <p id="performance-summary" class="performance-summary">三路径统计加载中…</p>
       </div>
-      <div class="baseline-grid">
-        <div><span id="downside-baseline-label">验证集次日跌超1%平均率</span><strong id="downside-baseline">—</strong><small id="downside-baseline-count">—</small></div>
-        <div><span id="decline-baseline-label">验证集次日任意下跌平均率</span><strong id="decline-baseline">—</strong><small id="decline-baseline-count">—</small></div>
+      <div class="performance-controls">
+        <div class="performance-selection">
+          <h3 id="performance-event">下一交易日跌超 1% 命中率</h3>
+          <fieldset id="performance-cutoff" class="cutoff-group" aria-describedby="performance-filter-help" disabled>
+            <legend id="performance-cutoff-label">风险分数阈值（0–100）</legend>
+            <div class="cutoff-options">
+              <label><input type="radio" name="performance-cutoff" value="70"><span>≥70</span></label>
+              <label><input type="radio" name="performance-cutoff" value="75"><span>≥75</span></label>
+              <label><input type="radio" name="performance-cutoff" value="80"><span>≥80</span></label>
+              <label><input type="radio" name="performance-cutoff" value="85" checked><span>≥85</span></label>
+            </div>
+          </fieldset>
+          <p id="performance-filter-help" class="performance-filter-help">同一阈值、同一批可核验记录；不同路径入选的信号数可能不同。</p>
+        </div>
+        <aside class="performance-baseline">
+          <span id="downside-baseline-label">验证期事件基准</span>
+          <strong id="downside-baseline">—</strong>
+          <small id="downside-baseline-count">—</small>
+          <p id="performance-baseline-note">时期与市场构成不同，基准仅供参考。</p>
+        </aside>
       </div>
-      <div id="performance-charts" class="performance-charts" aria-live="polite"></div>
-      <div class="performance-table-wrap">
-        <table class="performance-table">
-          <thead><tr><th id="perf-threshold">风险百分位</th><th id="perf-samples">已评估数量</th><th id="perf-down-count">跌超1%次数</th><th id="perf-down-rate">跌超1%命中率</th><th id="perf-down-base">验证集平均率</th><th id="perf-any-count">任意下跌次数</th><th id="perf-any-rate">任意下跌占比</th><th id="perf-any-base">验证集平均率</th></tr></thead>
-          <tbody id="performance-rows"><tr><td colspan="8">—</td></tr></tbody>
-        </table>
+      <div class="performance-legend">
+        <span><i class="legend-observed" aria-hidden="true"></i><span id="performance-observed-label">历史命中率</span></span>
+        <span><i class="legend-baseline" aria-hidden="true"></i><span id="performance-baseline-legend">基准线</span></span>
+        <span id="performance-scale">统一刻度：0–100%</span>
       </div>
-      <p id="performance-note" class="performance-note">风险数值是验证分布中的百分位，而非真实事件概率；统计按指数和预测日期去重。</p>
+      <div id="performance-charts" class="performance-charts"></div>
+      <p id="performance-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+      <p id="performance-note" class="performance-note">历史回顾，不是严格事前业绩。</p>
     </section>
 
     <section class="method-note">
@@ -91,7 +108,7 @@
   </main>
 
   <footer><span>SepToken Research Monitor</span><span id="disclaimer">仅供研究展示，不构成投资建议</span></footer>
-  <script src="app.js?v=20261104-session-performance" defer></script>
+  <script src="app.js?v=20261104-three-paths" type="module"></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"57e35ef19a564343965f38237c4ad2d4"}'></script>
   <!-- End Cloudflare Web Analytics -->
