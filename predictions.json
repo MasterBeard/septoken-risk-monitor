@@ -1,31 +1,24 @@
 {
-  "run_id": "2026-11-04T23-24-22Z",
-  "updated_at": "2026-11-04 23:24 UTC",
+  "run_id": "2026-11-05T00-21-24Z",
+  "updated_at": "2026-11-05 00:21 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-04T23:24:22.020075Z",
-  "generated_at": "2026-11-04T23:24:37.888622Z",
+  "generation_started_at": "2026-11-05T00:21:24.836973Z",
+  "generated_at": "2026-11-05T00:21:44.027893Z",
   "markets": [
     {
       "id": "sp500",
       "name": "S&P 500",
       "region": "United States",
-      "data_date": "2026-11-03",
-      "fused_risk": 0.643860962566845,
-      "continuous_risk": 0.9190508021390374,
-      "discrete_risk": 0.5662433155080214,
-      "predicted_price_ratio": 0.9985647797584534,
-      "discrete_downside_probability": 0.13309355080127716,
-      "signal": true,
+      "data_date": "2026-11-04",
+      "fused_risk": 0.42151203208556154,
+      "continuous_risk": 0.9549465240641711,
+      "discrete_risk": 0.2710561497326203,
+      "predicted_price_ratio": 0.9980794787406921,
+      "discrete_downside_probability": 0.08329199999570847,
+      "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-07",
-          "open": 7792.98,
-          "close": 7801.77,
-          "high": 7807.02,
-          "low": 7763.3398
-        },
         {
           "date": "2026-10-08",
           "open": 7778.4502,
@@ -158,9 +151,16 @@
           "close": 7568.9199,
           "high": 7594.6099,
           "low": 7545.3901
+        },
+        {
+          "date": "2026-11-04",
+          "open": 7635.8101,
+          "close": 7688.6201,
+          "high": 7715.5698,
+          "low": 7635.8101
         }
       ],
-      "source_received_at": "2026-11-04T23:24:23.470617Z",
+      "source_received_at": "2026-11-05T00:21:29.880118Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -168,22 +168,15 @@
       "id": "dow",
       "name": "Dow Jones",
       "region": "United States",
-      "data_date": "2026-11-03",
-      "fused_risk": 0.6958248663101604,
-      "continuous_risk": 0.8421791443850267,
-      "discrete_risk": 0.6545454545454545,
-      "predicted_price_ratio": 0.9986546039581299,
-      "discrete_downside_probability": 0.1497677117586136,
-      "signal": true,
+      "data_date": "2026-11-04",
+      "fused_risk": 0.41359625668449196,
+      "continuous_risk": 0.3625,
+      "discrete_risk": 0.4280080213903743,
+      "predicted_price_ratio": 1.001542329788208,
+      "discrete_downside_probability": 0.10830961167812347,
+      "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-07",
-          "open": 51406.4414,
-          "close": 51179.8711,
-          "high": 51406.4414,
-          "low": 50917.4219
-        },
         {
           "date": "2026-10-08",
           "open": 51105.0391,
@@ -316,9 +309,16 @@
           "close": 51786.7188,
           "high": 51932.6289,
           "low": 51593.1602
+        },
+        {
+          "date": "2026-11-04",
+          "open": 52410.2305,
+          "close": 53356.1211,
+          "high": 53492.3984,
+          "low": 52410.2305
         }
       ],
-      "source_received_at": "2026-11-04T23:24:23.752366Z",
+      "source_received_at": "2026-11-05T00:21:30.236461Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -476,7 +476,7 @@
           "low": 25876.82
         }
       ],
-      "source_received_at": "2026-11-04T23:24:25.022695Z",
+      "source_received_at": "2026-11-05T00:21:32.366377Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -634,7 +634,7 @@
           "low": 10631.96
         }
       ],
-      "source_received_at": "2026-11-04T23:24:26.216482Z",
+      "source_received_at": "2026-11-05T00:21:33.203922Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -792,7 +792,7 @@
           "low": 8030.69
         }
       ],
-      "source_received_at": "2026-11-04T23:24:27.167486Z",
+      "source_received_at": "2026-11-05T00:21:34.237903Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -950,7 +950,7 @@
           "low": 60030.1
         }
       ],
-      "source_received_at": "2026-11-04T23:24:28.282873Z",
+      "source_received_at": "2026-11-05T00:21:35.242421Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1108,7 +1108,7 @@
           "low": 23385.29
         }
       ],
-      "source_received_at": "2026-11-04T23:24:28.712173Z",
+      "source_received_at": "2026-11-05T00:21:35.756157Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1266,7 +1266,7 @@
           "low": 3590.798
         }
       ],
-      "source_received_at": "2026-11-04T23:24:29.159632Z",
+      "source_received_at": "2026-11-05T00:21:36.083766Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1424,7 +1424,7 @@
           "low": 3987.152
         }
       ],
-      "source_received_at": "2026-11-04T23:24:29.269393Z",
+      "source_received_at": "2026-11-05T00:21:36.309654Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1432,22 +1432,15 @@
       "id": "nasdaq",
       "name": "NASDAQ",
       "region": "United States",
-      "data_date": "2026-11-03",
-      "fused_risk": 0.839274064171123,
-      "continuous_risk": 0.9439171122994653,
-      "discrete_risk": 0.8097593582887701,
-      "predicted_price_ratio": 0.9984421730041504,
-      "discrete_downside_probability": 0.18606191873550415,
+      "data_date": "2026-11-04",
+      "fused_risk": 0.630788770053476,
+      "continuous_risk": 0.955614973262032,
+      "discrete_risk": 0.5391711229946524,
+      "predicted_price_ratio": 0.9980466961860657,
+      "discrete_downside_probability": 0.1278679221868515,
       "signal": true,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-07",
-          "open": 27430.5352,
-          "close": 27538.6914,
-          "high": 27547.2031,
-          "low": 27341.3086
-        },
         {
           "date": "2026-10-08",
           "open": 27416.0312,
@@ -1580,9 +1573,16 @@
           "close": 25372.0098,
           "high": 25474.4629,
           "low": 25246.6348
+        },
+        {
+          "date": "2026-11-04",
+          "open": 25652.7812,
+          "close": 25736.5137,
+          "high": 26048.8301,
+          "low": 25602.1367
         }
       ],
-      "source_received_at": "2026-11-04T23:24:29.414421Z",
+      "source_received_at": "2026-11-05T00:21:36.583299Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1740,7 +1740,7 @@
           "low": 6147.1
         }
       ],
-      "source_received_at": "2026-11-04T23:24:30.476758Z",
+      "source_received_at": "2026-11-05T00:21:37.381086Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1749,12 +1749,12 @@
       "name": "TSX Composite",
       "region": "Canada",
       "data_date": "2026-11-04",
-      "fused_risk": 0.5332593582887701,
-      "continuous_risk": 0.9450534759358289,
-      "discrete_risk": 0.41711229946524064,
-      "predicted_price_ratio": 0.9984309673309326,
-      "discrete_downside_probability": 0.10600012540817261,
-      "signal": true,
+      "fused_risk": 0.41711096256684493,
+      "continuous_risk": 0.07606951871657754,
+      "discrete_risk": 0.5133021390374332,
+      "predicted_price_ratio": 1.004007339477539,
+      "discrete_downside_probability": 0.12293358147144318,
+      "signal": false,
       "status": "experimental",
       "candles": [
         {
@@ -1893,12 +1893,12 @@
         {
           "date": "2026-11-04",
           "open": 35879.03,
-          "close": 36248.32,
-          "high": 36289.28,
+          "close": 36341.4,
+          "high": 36417.13,
           "low": 35879.03
         }
       ],
-      "source_received_at": "2026-11-04T23:24:31.531295Z",
+      "source_received_at": "2026-11-05T00:21:38.343469Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2056,7 +2056,7 @@
           "low": 165541.38
         }
       ],
-      "source_received_at": "2026-11-04T23:24:32.646036Z",
+      "source_received_at": "2026-11-05T00:21:39.350407Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2214,7 +2214,7 @@
           "low": 5421.72
         }
       ],
-      "source_received_at": "2026-11-04T23:24:33.617299Z",
+      "source_received_at": "2026-11-05T00:21:40.348043Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2372,7 +2372,7 @@
           "low": 76033.7422
         }
       ],
-      "source_received_at": "2026-11-04T23:24:36.035441Z",
+      "source_received_at": "2026-11-05T00:21:42.174791Z",
       "is_final": null,
       "quality_issues": [
         "source_unpriced_tail"
@@ -2532,15 +2532,15 @@
           "low": 8802.1
         }
       ],
-      "source_received_at": "2026-11-04T23:24:36.952121Z",
+      "source_received_at": "2026-11-05T00:21:43.167847Z",
       "is_final": null,
       "quality_issues": []
     }
   ],
   "monitoring_performance": {
     "definition": "retrospective latest prediction per market/input session; next exchange session close, observed after close plus delivery buffer",
-    "unique_predictions": 270,
-    "evaluable_predictions": 243,
+    "unique_predictions": 273,
+    "evaluable_predictions": 257,
     "evaluation_start_date": "2026-09-30",
     "evaluation_end_date": "2026-11-04",
     "validation_baseline": {
@@ -2554,27 +2554,27 @@
     "thresholds": [
       {
         "threshold": 0.7,
-        "evaluable_count": 83,
+        "evaluable_count": 85,
         "downside_over_1pct_count": 22,
-        "downside_over_1pct_rate": 0.26506024096385544,
+        "downside_over_1pct_rate": 0.25882352941176473,
         "any_decline_count": 43,
-        "any_decline_rate": 0.5180722891566265
+        "any_decline_rate": 0.5058823529411764
       },
       {
         "threshold": 0.75,
-        "evaluable_count": 72,
+        "evaluable_count": 73,
         "downside_over_1pct_count": 19,
-        "downside_over_1pct_rate": 0.2638888888888889,
+        "downside_over_1pct_rate": 0.2602739726027397,
         "any_decline_count": 37,
-        "any_decline_rate": 0.5138888888888888
+        "any_decline_rate": 0.5068493150684932
       },
       {
         "threshold": 0.8,
-        "evaluable_count": 54,
+        "evaluable_count": 55,
         "downside_over_1pct_count": 12,
-        "downside_over_1pct_rate": 0.2222222222222222,
+        "downside_over_1pct_rate": 0.21818181818181817,
         "any_decline_count": 26,
-        "any_decline_rate": 0.48148148148148145
+        "any_decline_rate": 0.4727272727272727
       },
       {
         "threshold": 0.85,
@@ -2587,17 +2587,15 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-04T23-24-22Z",
-      "generated_at": "2026-11-04T23:24:41.714623Z",
+      "source_run_id": "2026-11-05T00-21-24Z",
+      "generated_at": "2026-11-05T00:21:48.489714Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
-      "unique_predictions": 270,
-      "evaluable_predictions": 243,
+      "unique_predictions": 273,
+      "evaluable_predictions": 257,
       "excluded_counts": {
-        "target_not_closed": 12,
-        "missing_session_close": 3,
-        "unverified_calendar": 12
+        "target_not_closed": 16
       },
       "evaluation_start_date": "2026-09-30",
       "evaluation_end_date": "2026-11-04",
@@ -2607,21 +2605,21 @@
           "thresholds": [
             {
               "threshold": 0.7,
-              "signal_count": 83,
+              "signal_count": 85,
               "hit_count": 22,
-              "hit_rate": 0.26506024096385544
+              "hit_rate": 0.25882352941176473
             },
             {
               "threshold": 0.75,
-              "signal_count": 72,
+              "signal_count": 73,
               "hit_count": 19,
-              "hit_rate": 0.2638888888888889
+              "hit_rate": 0.2602739726027397
             },
             {
               "threshold": 0.8,
-              "signal_count": 54,
+              "signal_count": 55,
               "hit_count": 12,
-              "hit_rate": 0.2222222222222222
+              "hit_rate": 0.21818181818181817
             },
             {
               "threshold": 0.85,
@@ -2636,27 +2634,27 @@
           "thresholds": [
             {
               "threshold": 0.7,
-              "signal_count": 102,
+              "signal_count": 108,
               "hit_count": 23,
-              "hit_rate": 0.22549019607843138
+              "hit_rate": 0.21296296296296297
             },
             {
               "threshold": 0.75,
-              "signal_count": 90,
+              "signal_count": 95,
               "hit_count": 21,
-              "hit_rate": 0.23333333333333334
+              "hit_rate": 0.22105263157894736
             },
             {
               "threshold": 0.8,
-              "signal_count": 83,
+              "signal_count": 87,
               "hit_count": 18,
-              "hit_rate": 0.21686746987951808
+              "hit_rate": 0.20689655172413793
             },
             {
               "threshold": 0.85,
-              "signal_count": 63,
+              "signal_count": 66,
               "hit_count": 15,
-              "hit_rate": 0.23809523809523808
+              "hit_rate": 0.22727272727272727
             }
           ]
         },
@@ -2665,21 +2663,21 @@
           "thresholds": [
             {
               "threshold": 0.7,
-              "signal_count": 94,
+              "signal_count": 96,
               "hit_count": 24,
-              "hit_rate": 0.2553191489361702
+              "hit_rate": 0.25
             },
             {
               "threshold": 0.75,
-              "signal_count": 81,
+              "signal_count": 82,
               "hit_count": 22,
-              "hit_rate": 0.2716049382716049
+              "hit_rate": 0.2682926829268293
             },
             {
               "threshold": 0.8,
-              "signal_count": 61,
+              "signal_count": 62,
               "hit_count": 16,
-              "hit_rate": 0.26229508196721313
+              "hit_rate": 0.25806451612903225
             },
             {
               "threshold": 0.85,
