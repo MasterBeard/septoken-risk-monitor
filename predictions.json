@@ -1,10 +1,10 @@
 {
-  "run_id": "2026-11-05T00-21-24Z",
-  "updated_at": "2026-11-05 00:21 UTC",
+  "run_id": "2026-11-05T11-43-55Z",
+  "updated_at": "2026-11-05 11:43 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-05T00:21:24.836973Z",
-  "generated_at": "2026-11-05T00:21:44.027893Z",
+  "generation_started_at": "2026-11-05T11:43:55.554676Z",
+  "generated_at": "2026-11-05T11:44:15.653644Z",
   "markets": [
     {
       "id": "sp500",
@@ -160,7 +160,7 @@
           "low": 7635.8101
         }
       ],
-      "source_received_at": "2026-11-05T00:21:29.880118Z",
+      "source_received_at": "2026-11-05T11:43:59.405998Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -318,7 +318,7 @@
           "low": 52410.2305
         }
       ],
-      "source_received_at": "2026-11-05T00:21:30.236461Z",
+      "source_received_at": "2026-11-05T11:43:59.805052Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -476,7 +476,7 @@
           "low": 25876.82
         }
       ],
-      "source_received_at": "2026-11-05T00:21:32.366377Z",
+      "source_received_at": "2026-11-05T11:44:03.117144Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -634,7 +634,7 @@
           "low": 10631.96
         }
       ],
-      "source_received_at": "2026-11-05T00:21:33.203922Z",
+      "source_received_at": "2026-11-05T11:44:04.098431Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -792,7 +792,7 @@
           "low": 8030.69
         }
       ],
-      "source_received_at": "2026-11-05T00:21:34.237903Z",
+      "source_received_at": "2026-11-05T11:44:05.120444Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -800,22 +800,15 @@
       "id": "nikkei225",
       "name": "Nikkei 225",
       "region": "Japan",
-      "data_date": "2026-11-04",
-      "fused_risk": 0.8363649732620322,
-      "continuous_risk": 0.6090909090909091,
-      "discrete_risk": 0.9004679144385027,
-      "predicted_price_ratio": 0.9990347623825073,
-      "discrete_downside_probability": 0.2233666628599167,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.8427433155080215,
+      "continuous_risk": 0.6890374331550803,
+      "discrete_risk": 0.886096256684492,
+      "predicted_price_ratio": 0.9987610578536987,
+      "discrete_downside_probability": 0.21454255282878876,
       "signal": true,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-06",
-          "open": 69954.61,
-          "close": 70683.98,
-          "high": 70798.62,
-          "low": 69813.16
-        },
         {
           "date": "2026-10-07",
           "open": 70582.11,
@@ -948,9 +941,16 @@
           "close": 62188.63,
           "high": 63105.47,
           "low": 60030.1
+        },
+        {
+          "date": "2026-11-05",
+          "open": 62384.73,
+          "close": 61077.9,
+          "high": 62653.98,
+          "low": 60786.19
         }
       ],
-      "source_received_at": "2026-11-05T00:21:35.242421Z",
+      "source_received_at": "2026-11-05T11:44:06.124481Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1108,7 +1108,7 @@
           "low": 23385.29
         }
       ],
-      "source_received_at": "2026-11-05T00:21:35.756157Z",
+      "source_received_at": "2026-11-05T11:44:06.648682Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1116,22 +1116,15 @@
       "id": "sse50",
       "name": "Shanghai Composite",
       "region": "Mainland China",
-      "data_date": "2026-11-04",
-      "fused_risk": 0.7653957219251337,
-      "continuous_risk": 0.580614973262032,
-      "discrete_risk": 0.8175133689839572,
-      "predicted_price_ratio": 0.9993237257003784,
-      "discrete_downside_probability": 0.18810780346393585,
-      "signal": true,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.3020307486631016,
+      "continuous_risk": 0.4234625668449198,
+      "discrete_risk": 0.2677807486631016,
+      "predicted_price_ratio": 1.000799536705017,
+      "discrete_downside_probability": 0.08231166005134583,
+      "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-08",
-          "open": 3838.977,
-          "close": 3811.904,
-          "high": 3864.118,
-          "low": 3795.374
-        },
         {
           "date": "2026-10-09",
           "open": 3804.09,
@@ -1264,9 +1257,16 @@
           "close": 3686.173,
           "high": 3686.173,
           "low": 3590.798
+        },
+        {
+          "date": "2026-11-05",
+          "open": 3646.572,
+          "close": 3689.911,
+          "high": 3701.586,
+          "low": 3646.572
         }
       ],
-      "source_received_at": "2026-11-05T00:21:36.083766Z",
+      "source_received_at": "2026-11-05T11:44:06.979399Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1274,22 +1274,15 @@
       "id": "hs300",
       "name": "CSI 300",
       "region": "Mainland China",
-      "data_date": "2026-11-04",
-      "fused_risk": 0.6224318181818183,
-      "continuous_risk": 0.0014037433155080214,
-      "discrete_risk": 0.7975935828877005,
-      "predicted_price_ratio": 1.0065888166427612,
-      "discrete_downside_probability": 0.1824038326740265,
-      "signal": true,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.31367245989304815,
+      "continuous_risk": 0.5199866310160428,
+      "discrete_risk": 0.2554812834224599,
+      "predicted_price_ratio": 0.9998503923416138,
+      "discrete_downside_probability": 0.0796273797750473,
+      "signal": false,
       "status": "formal",
       "candles": [
-        {
-          "date": "2026-10-08",
-          "open": 4354.929,
-          "close": 4310.277,
-          "high": 4383.568,
-          "low": 4289.794
-        },
         {
           "date": "2026-10-09",
           "open": 4297.251,
@@ -1422,9 +1415,16 @@
           "close": 4101.335,
           "high": 4105.858,
           "low": 3987.152
+        },
+        {
+          "date": "2026-11-05",
+          "open": 4065.724,
+          "close": 4113.411,
+          "high": 4136.798,
+          "low": 4065.724
         }
       ],
-      "source_received_at": "2026-11-05T00:21:36.309654Z",
+      "source_received_at": "2026-11-05T11:44:07.426997Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1582,7 +1582,7 @@
           "low": 25602.1367
         }
       ],
-      "source_received_at": "2026-11-05T00:21:36.583299Z",
+      "source_received_at": "2026-11-05T11:44:07.717299Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1740,7 +1740,7 @@
           "low": 6147.1
         }
       ],
-      "source_received_at": "2026-11-05T00:21:37.381086Z",
+      "source_received_at": "2026-11-05T11:44:08.523092Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1898,7 +1898,7 @@
           "low": 35879.03
         }
       ],
-      "source_received_at": "2026-11-05T00:21:38.343469Z",
+      "source_received_at": "2026-11-05T11:44:09.929923Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1907,10 +1907,10 @@
       "name": "BOVESPA",
       "region": "Brazil",
       "data_date": "2026-11-04",
-      "fused_risk": 0.9600187165775402,
-      "continuous_risk": 0.957620320855615,
+      "fused_risk": 0.9691657754010696,
+      "continuous_risk": 0.9991978609625668,
       "discrete_risk": 0.9606951871657754,
-      "predicted_price_ratio": 0.9979019165039062,
+      "predicted_price_ratio": 0.994916558265686,
       "discrete_downside_probability": 0.2862631678581238,
       "signal": true,
       "status": "experimental",
@@ -2051,12 +2051,12 @@
         {
           "date": "2026-11-04",
           "open": 165547.88,
-          "close": 167174.18,
+          "close": 167563.47,
           "high": 167986.37,
           "low": 165541.38
         }
       ],
-      "source_received_at": "2026-11-05T00:21:39.350407Z",
+      "source_received_at": "2026-11-05T11:44:10.935628Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2064,22 +2064,15 @@
       "id": "kospi",
       "name": "KOSPI",
       "region": "South Korea",
-      "data_date": "2026-11-04",
-      "fused_risk": 0.7422700534759359,
-      "continuous_risk": 0.011697860962566845,
-      "discrete_risk": 0.9483288770053476,
-      "predicted_price_ratio": 1.0053256750106812,
-      "discrete_downside_probability": 0.26803553104400635,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.9168676470588235,
+      "continuous_risk": 0.6247326203208556,
+      "discrete_risk": 0.9992647058823529,
+      "predicted_price_ratio": 0.9988882541656494,
+      "discrete_downside_probability": 0.4892616868019104,
       "signal": true,
       "status": "experimental",
       "candles": [
-        {
-          "date": "2026-10-07",
-          "open": 6864.25,
-          "close": 6803.9,
-          "high": 6977.77,
-          "low": 6803.81
-        },
         {
           "date": "2026-10-08",
           "open": 6808.68,
@@ -2208,13 +2201,20 @@
         },
         {
           "date": "2026-11-04",
-          "open": 5786.13,
-          "close": 5683.8,
-          "high": 5828.13,
-          "low": 5421.72
+          "open": 5786.1299,
+          "close": 5683.7998,
+          "high": 5828.1299,
+          "low": 5421.7202
+        },
+        {
+          "date": "2026-11-05",
+          "open": 5580.0898,
+          "close": 5383.7998,
+          "high": 5586.46,
+          "low": 5336.8799
         }
       ],
-      "source_received_at": "2026-11-05T00:21:40.348043Z",
+      "source_received_at": "2026-11-05T11:44:11.944528Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2222,29 +2222,15 @@
       "id": "sensex",
       "name": "SENSEX",
       "region": "India",
-      "data_date": "2026-11-03",
-      "fused_risk": 0.34889304812834226,
-      "continuous_risk": 0.2994652406417112,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.34920187165775407,
+      "continuous_risk": 0.3008689839572192,
       "discrete_risk": 0.3628342245989305,
-      "predicted_price_ratio": 1.002344012260437,
+      "predicted_price_ratio": 1.0023306608200073,
       "discrete_downside_probability": 0.10287781804800034,
       "signal": false,
       "status": "experimental",
       "candles": [
-        {
-          "date": "2026-10-06",
-          "open": 72508.05,
-          "close": 73067.81,
-          "high": 73067.81,
-          "low": 72384.83
-        },
-        {
-          "date": "2026-10-07",
-          "open": 72965.38,
-          "close": 72638.7,
-          "high": 73018.82,
-          "low": 72468.72
-        },
         {
           "date": "2026-10-08",
           "open": 72668.0,
@@ -2370,34 +2356,39 @@
           "close": 76917.8516,
           "high": 76917.8516,
           "low": 76033.7422
+        },
+        {
+          "date": "2026-11-04",
+          "open": 76853.1094,
+          "close": 77301.3984,
+          "high": 77396.0391,
+          "low": 76604.8516
+        },
+        {
+          "date": "2026-11-05",
+          "open": 78910.9375,
+          "close": 79364.7891,
+          "high": 79470.0313,
+          "low": 78520.5625
         }
       ],
-      "source_received_at": "2026-11-05T00:21:42.174791Z",
+      "source_received_at": "2026-11-05T11:44:13.780471Z",
       "is_final": null,
-      "quality_issues": [
-        "source_unpriced_tail"
-      ]
+      "quality_issues": []
     },
     {
       "id": "asx200",
       "name": "ASX 200",
       "region": "Australia",
-      "data_date": "2026-11-04",
-      "fused_risk": 0.6007954545454546,
-      "continuous_risk": 0.6787433155080214,
-      "discrete_risk": 0.5788101604278075,
-      "predicted_price_ratio": 0.9987730383872986,
-      "discrete_downside_probability": 0.13515257835388184,
-      "signal": true,
+      "data_date": "2026-11-05",
+      "fused_risk": 0.4080588235294118,
+      "continuous_risk": 0.0143048128342246,
+      "discrete_risk": 0.5191176470588236,
+      "predicted_price_ratio": 1.0051417350769043,
+      "discrete_downside_probability": 0.12415634095668793,
+      "signal": false,
       "status": "experimental",
       "candles": [
-        {
-          "date": "2026-10-08",
-          "open": 8727.7,
-          "close": 8660.9,
-          "high": 8727.7,
-          "low": 8658.7
-        },
         {
           "date": "2026-10-09",
           "open": 8660.9,
@@ -2530,19 +2521,26 @@
           "close": 8834.5,
           "high": 8886.8,
           "low": 8802.1
+        },
+        {
+          "date": "2026-11-05",
+          "open": 8834.5,
+          "close": 9006.4,
+          "high": 9012.3,
+          "low": 8834.5
         }
       ],
-      "source_received_at": "2026-11-05T00:21:43.167847Z",
+      "source_received_at": "2026-11-05T11:44:14.761661Z",
       "is_final": null,
       "quality_issues": []
     }
   ],
   "monitoring_performance": {
     "definition": "retrospective latest prediction per market/input session; next exchange session close, observed after close plus delivery buffer",
-    "unique_predictions": 273,
-    "evaluable_predictions": 257,
+    "unique_predictions": 279,
+    "evaluable_predictions": 263,
     "evaluation_start_date": "2026-09-30",
-    "evaluation_end_date": "2026-11-04",
+    "evaluation_end_date": "2026-11-05",
     "validation_baseline": {
       "period": "2019-01-01 to 2024-12-31",
       "samples": 14960,
@@ -2554,27 +2552,27 @@
     "thresholds": [
       {
         "threshold": 0.7,
-        "evaluable_count": 85,
-        "downside_over_1pct_count": 22,
-        "downside_over_1pct_rate": 0.25882352941176473,
-        "any_decline_count": 43,
-        "any_decline_rate": 0.5058823529411764
+        "evaluable_count": 88,
+        "downside_over_1pct_count": 24,
+        "downside_over_1pct_rate": 0.2727272727272727,
+        "any_decline_count": 45,
+        "any_decline_rate": 0.5113636363636364
       },
       {
         "threshold": 0.75,
-        "evaluable_count": 73,
-        "downside_over_1pct_count": 19,
-        "downside_over_1pct_rate": 0.2602739726027397,
-        "any_decline_count": 37,
-        "any_decline_rate": 0.5068493150684932
+        "evaluable_count": 75,
+        "downside_over_1pct_count": 20,
+        "downside_over_1pct_rate": 0.26666666666666666,
+        "any_decline_count": 38,
+        "any_decline_rate": 0.5066666666666667
       },
       {
         "threshold": 0.8,
-        "evaluable_count": 55,
-        "downside_over_1pct_count": 12,
-        "downside_over_1pct_rate": 0.21818181818181817,
-        "any_decline_count": 26,
-        "any_decline_rate": 0.4727272727272727
+        "evaluable_count": 56,
+        "downside_over_1pct_count": 13,
+        "downside_over_1pct_rate": 0.23214285714285715,
+        "any_decline_count": 27,
+        "any_decline_rate": 0.48214285714285715
       },
       {
         "threshold": 0.85,
@@ -2587,39 +2585,40 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-05T00-21-24Z",
-      "generated_at": "2026-11-05T00:21:48.489714Z",
+      "source_run_id": "2026-11-05T11-43-55Z",
+      "generated_at": "2026-11-05T11:44:20.571996Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
-      "unique_predictions": 273,
-      "evaluable_predictions": 257,
+      "unique_predictions": 279,
+      "evaluable_predictions": 263,
       "excluded_counts": {
-        "target_not_closed": 16
+        "target_not_closed": 15,
+        "missing_session_close": 1
       },
       "evaluation_start_date": "2026-09-30",
-      "evaluation_end_date": "2026-11-04",
+      "evaluation_end_date": "2026-11-05",
       "paths": [
         {
           "id": "fused",
           "thresholds": [
             {
               "threshold": 0.7,
-              "signal_count": 85,
-              "hit_count": 22,
-              "hit_rate": 0.25882352941176473
+              "signal_count": 88,
+              "hit_count": 24,
+              "hit_rate": 0.2727272727272727
             },
             {
               "threshold": 0.75,
-              "signal_count": 73,
-              "hit_count": 19,
-              "hit_rate": 0.2602739726027397
+              "signal_count": 75,
+              "hit_count": 20,
+              "hit_rate": 0.26666666666666666
             },
             {
               "threshold": 0.8,
-              "signal_count": 55,
-              "hit_count": 12,
-              "hit_rate": 0.21818181818181817
+              "signal_count": 56,
+              "hit_count": 13,
+              "hit_rate": 0.23214285714285715
             },
             {
               "threshold": 0.85,
@@ -2663,27 +2662,27 @@
           "thresholds": [
             {
               "threshold": 0.7,
-              "signal_count": 96,
-              "hit_count": 24,
-              "hit_rate": 0.25
+              "signal_count": 100,
+              "hit_count": 26,
+              "hit_rate": 0.26
             },
             {
               "threshold": 0.75,
-              "signal_count": 82,
-              "hit_count": 22,
-              "hit_rate": 0.2682926829268293
+              "signal_count": 86,
+              "hit_count": 24,
+              "hit_rate": 0.27906976744186046
             },
             {
               "threshold": 0.8,
-              "signal_count": 62,
-              "hit_count": 16,
-              "hit_rate": 0.25806451612903225
+              "signal_count": 65,
+              "hit_count": 18,
+              "hit_rate": 0.27692307692307694
             },
             {
               "threshold": 0.85,
-              "signal_count": 50,
-              "hit_count": 13,
-              "hit_rate": 0.26
+              "signal_count": 52,
+              "hit_count": 15,
+              "hit_rate": 0.28846153846153844
             }
           ]
         }
