@@ -1,0 +1,8 @@
+{
+  "kospi": {
+    "stage": "source",
+    "error_type": "ValueError",
+    "error": "Invalid OHLC in model input; refusing to silently use an older row: [{\"date\": \"2026-11-06\", \"open\": \"5263.2598\", \"close\": \"0.0\", \"high\": \"5269.1001\", \"low\": \"4911.2798\"}]",
+    "failed_at": "2026-11-07T00:46:14.274307Z"
+  }
+}
