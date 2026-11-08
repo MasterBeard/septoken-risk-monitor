@@ -1,10 +1,10 @@
 {
-  "run_id": "2026-11-07T10-54-12Z",
-  "updated_at": "2026-11-07 10:54 UTC",
+  "run_id": "2026-11-08T02-03-40Z",
+  "updated_at": "2026-11-08 02:03 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-07T10:54:12.437482Z",
-  "generated_at": "2026-11-07T10:54:32.754211Z",
+  "generation_started_at": "2026-11-08T02:03:40.917677Z",
+  "generated_at": "2026-11-08T02:03:58.747644Z",
   "markets": [
     {
       "id": "sp500",
@@ -14,8 +14,8 @@
       "fused_risk": 0.8874906417112299,
       "continuous_risk": 0.9455213903743316,
       "discrete_risk": 0.8711229946524064,
-      "predicted_price_ratio": 0.9984265565872192,
-      "discrete_downside_probability": 0.20839634537696838,
+      "predicted_price_ratio": 0.9984264373779297,
+      "discrete_downside_probability": 0.20839636027812958,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -160,7 +160,7 @@
           "low": 7369.5498
         }
       ],
-      "source_received_at": "2026-11-07T10:54:16.154960Z",
+      "source_received_at": "2026-11-08T02:03:42.630924Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -169,11 +169,11 @@
       "name": "Dow Jones",
       "region": "United States",
       "data_date": "2026-11-06",
-      "fused_risk": 0.6581524064171124,
-      "continuous_risk": 0.9328208556149733,
+      "fused_risk": 0.6581229946524064,
+      "continuous_risk": 0.9326871657754011,
       "discrete_risk": 0.5806818181818182,
-      "predicted_price_ratio": 0.9985213279724121,
-      "discrete_downside_probability": 0.1355084627866745,
+      "predicted_price_ratio": 0.9985215663909912,
+      "discrete_downside_probability": 0.1355084776878357,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -318,7 +318,7 @@
           "low": 50992.6094
         }
       ],
-      "source_received_at": "2026-11-07T10:54:16.543031Z",
+      "source_received_at": "2026-11-08T02:03:43.002149Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -330,8 +330,8 @@
       "fused_risk": 0.6333435828877005,
       "continuous_risk": 0.1318181818181818,
       "discrete_risk": 0.7747994652406417,
-      "predicted_price_ratio": 1.0035823583602905,
-      "discrete_downside_probability": 0.17548778653144836,
+      "predicted_price_ratio": 1.003582239151001,
+      "discrete_downside_probability": 0.17548787593841553,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -476,7 +476,7 @@
           "low": 25617.54
         }
       ],
-      "source_received_at": "2026-11-07T10:54:19.181514Z",
+      "source_received_at": "2026-11-08T02:03:44.349644Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -488,8 +488,8 @@
       "fused_risk": 0.6492299465240641,
       "continuous_risk": 0.6431818181818182,
       "discrete_risk": 0.6509358288770053,
-      "predicted_price_ratio": 0.9988315105438232,
-      "discrete_downside_probability": 0.14906340837478638,
+      "predicted_price_ratio": 0.9988313913345337,
+      "discrete_downside_probability": 0.1490633189678192,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -634,7 +634,7 @@
           "low": 10528.07
         }
       ],
-      "source_received_at": "2026-11-07T10:54:20.283241Z",
+      "source_received_at": "2026-11-08T02:03:45.477631Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -646,8 +646,8 @@
       "fused_risk": 0.6846697860962567,
       "continuous_risk": 0.30421122994652405,
       "discrete_risk": 0.7919786096256685,
-      "predicted_price_ratio": 1.0023006200790405,
-      "discrete_downside_probability": 0.18072128295898438,
+      "predicted_price_ratio": 1.0023008584976196,
+      "discrete_downside_probability": 0.180721253156662,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -792,7 +792,7 @@
           "low": 8049.64
         }
       ],
-      "source_received_at": "2026-11-07T10:54:21.415426Z",
+      "source_received_at": "2026-11-08T02:03:46.443147Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -804,8 +804,8 @@
       "fused_risk": 0.9142927807486632,
       "continuous_risk": 0.6135026737967915,
       "discrete_risk": 0.9991310160427808,
-      "predicted_price_ratio": 0.9989829659461975,
-      "discrete_downside_probability": 0.48854950070381165,
+      "predicted_price_ratio": 0.9989830255508423,
+      "discrete_downside_probability": 0.4885496199131012,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -950,7 +950,7 @@
           "low": 56745.81
         }
       ],
-      "source_received_at": "2026-11-07T10:54:23.125753Z",
+      "source_received_at": "2026-11-08T02:03:47.372210Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -963,7 +963,7 @@
       "continuous_risk": 0.4947860962566845,
       "discrete_risk": 0.8068850267379679,
       "predicted_price_ratio": 1.0001267194747925,
-      "discrete_downside_probability": 0.18511083722114563,
+      "discrete_downside_probability": 0.18511077761650085,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -1108,7 +1108,7 @@
           "low": 24349.3
         }
       ],
-      "source_received_at": "2026-11-07T10:54:23.792828Z",
+      "source_received_at": "2026-11-08T02:03:47.903663Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1120,8 +1120,8 @@
       "fused_risk": 0.6498502673796791,
       "continuous_risk": 0.5016711229946524,
       "discrete_risk": 0.691644385026738,
-      "predicted_price_ratio": 1.000058650970459,
-      "discrete_downside_probability": 0.1566920429468155,
+      "predicted_price_ratio": 1.0000587701797485,
+      "discrete_downside_probability": 0.15669207274913788,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -1266,7 +1266,7 @@
           "low": 3610.198
         }
       ],
-      "source_received_at": "2026-11-07T10:54:24.106546Z",
+      "source_received_at": "2026-11-08T02:03:48.184098Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1278,8 +1278,8 @@
       "fused_risk": 0.7012032085561498,
       "continuous_risk": 0.5187165775401069,
       "discrete_risk": 0.7526737967914439,
-      "predicted_price_ratio": 0.9998592138290405,
-      "discrete_downside_probability": 0.16985172033309937,
+      "predicted_price_ratio": 0.9998593330383301,
+      "discrete_downside_probability": 0.16985169053077698,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -1424,7 +1424,7 @@
           "low": 4013.793
         }
       ],
-      "source_received_at": "2026-11-07T10:54:24.346757Z",
+      "source_received_at": "2026-11-08T02:03:48.580616Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1436,8 +1436,8 @@
       "fused_risk": 0.9627286096256684,
       "continuous_risk": 0.9997994652406417,
       "discrete_risk": 0.9522727272727273,
-      "predicted_price_ratio": 0.9946280717849731,
-      "discrete_downside_probability": 0.2737577259540558,
+      "predicted_price_ratio": 0.9946281313896179,
+      "discrete_downside_probability": 0.273757666349411,
       "signal": true,
       "status": "formal",
       "candles": [
@@ -1582,7 +1582,7 @@
           "low": 24507.6309
         }
       ],
-      "source_received_at": "2026-11-07T10:54:24.646380Z",
+      "source_received_at": "2026-11-08T02:03:48.781141Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1591,11 +1591,11 @@
       "name": "EURO STOXX 50",
       "region": "Eurozone",
       "data_date": "2026-11-06",
-      "fused_risk": 0.7755574866310161,
-      "continuous_risk": 0.6528743315508021,
+      "fused_risk": 0.7755427807486631,
+      "continuous_risk": 0.6528074866310161,
       "discrete_risk": 0.8101604278074866,
-      "predicted_price_ratio": 0.9988119602203369,
-      "discrete_downside_probability": 0.18618692457675934,
+      "predicted_price_ratio": 0.9988120198249817,
+      "discrete_downside_probability": 0.1861869990825653,
       "signal": true,
       "status": "experimental",
       "candles": [
@@ -1740,7 +1740,7 @@
           "low": 6122.47
         }
       ],
-      "source_received_at": "2026-11-07T10:54:25.705048Z",
+      "source_received_at": "2026-11-08T02:03:49.660261Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1752,8 +1752,8 @@
       "fused_risk": 0.4775708556149733,
       "continuous_risk": 0.902139037433155,
       "discrete_risk": 0.3578208556149733,
-      "predicted_price_ratio": 0.9985947012901306,
-      "discrete_downside_probability": 0.10194643586874008,
+      "predicted_price_ratio": 0.9985946416854858,
+      "discrete_downside_probability": 0.10194642841815948,
       "signal": false,
       "status": "experimental",
       "candles": [
@@ -1898,7 +1898,7 @@
           "low": 35397.44
         }
       ],
-      "source_received_at": "2026-11-07T10:54:26.541998Z",
+      "source_received_at": "2026-11-08T02:03:50.747360Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1910,8 +1910,8 @@
       "fused_risk": 0.9690681818181818,
       "continuous_risk": 0.991644385026738,
       "discrete_risk": 0.9627005347593582,
-      "predicted_price_ratio": 0.9959958791732788,
-      "discrete_downside_probability": 0.2897455096244812,
+      "predicted_price_ratio": 0.9959957599639893,
+      "discrete_downside_probability": 0.289745569229126,
       "signal": true,
       "status": "experimental",
       "candles": [
@@ -2056,7 +2056,7 @@
           "low": 165909.74
         }
       ],
-      "source_received_at": "2026-11-07T10:54:27.427670Z",
+      "source_received_at": "2026-11-08T02:03:51.924790Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2065,11 +2065,11 @@
       "name": "KOSPI",
       "region": "South Korea",
       "data_date": "2026-11-06",
-      "fused_risk": 0.9081737967914439,
-      "continuous_risk": 0.5887700534759358,
+      "fused_risk": 0.9081885026737969,
+      "continuous_risk": 0.588836898395722,
       "discrete_risk": 0.9982620320855615,
-      "predicted_price_ratio": 0.9992387294769287,
-      "discrete_downside_probability": 0.4600585997104645,
+      "predicted_price_ratio": 0.9992384910583496,
+      "discrete_downside_probability": 0.460058331489563,
       "signal": true,
       "status": "experimental",
       "candles": [
@@ -2214,7 +2214,7 @@
           "low": 4911.2798
         }
       ],
-      "source_received_at": "2026-11-07T10:54:28.308547Z",
+      "source_received_at": "2026-11-08T02:03:53.115740Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2226,8 +2226,8 @@
       "fused_risk": 0.3510695187165776,
       "continuous_risk": 0.3093582887700535,
       "discrete_risk": 0.3628342245989305,
-      "predicted_price_ratio": 1.0022510290145874,
-      "discrete_downside_probability": 0.10287781804800034,
+      "predicted_price_ratio": 1.0022509098052979,
+      "discrete_downside_probability": 0.10287784785032272,
       "signal": false,
       "status": "experimental",
       "candles": [
@@ -2372,7 +2372,7 @@
           "low": 79016.0469
         }
       ],
-      "source_received_at": "2026-11-07T10:54:30.888553Z",
+      "source_received_at": "2026-11-08T02:03:56.259122Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2384,8 +2384,8 @@
       "fused_risk": 0.4082887700534759,
       "continuous_risk": 0.3300802139037433,
       "discrete_risk": 0.4303475935828877,
-      "predicted_price_ratio": 1.0020010471343994,
-      "discrete_downside_probability": 0.10870205610990524,
+      "predicted_price_ratio": 1.002001166343689,
+      "discrete_downside_probability": 0.10870207846164703,
       "signal": false,
       "status": "experimental",
       "candles": [
@@ -2530,7 +2530,7 @@
           "low": 8923.3
         }
       ],
-      "source_received_at": "2026-11-07T10:54:31.713390Z",
+      "source_received_at": "2026-11-08T02:03:57.352000Z",
       "is_final": null,
       "quality_issues": []
     }
@@ -2586,8 +2586,8 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-07T10-54-12Z",
-      "generated_at": "2026-11-07T10:54:40.739880Z",
+      "source_run_id": "2026-11-08T02-03-40Z",
+      "generated_at": "2026-11-08T02:04:08.249476Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
