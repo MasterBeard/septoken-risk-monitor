@@ -1,0 +1,8 @@
+{
+  "sensex": {
+    "stage": "source",
+    "error_type": "ValueError",
+    "error": "Invalid session for sensex: ['not_a_session']",
+    "failed_at": "2026-11-08T11:03:30.880689Z"
+  }
+}

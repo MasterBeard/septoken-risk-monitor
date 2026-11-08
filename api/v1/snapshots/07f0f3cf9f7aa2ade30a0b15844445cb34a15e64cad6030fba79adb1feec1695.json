@@ -1,0 +1,2946 @@
+{
+  "artifact_kind": "production",
+  "calendar_checked_at": "2026-11-08T11:03:47.852983Z",
+  "generated_at": "2026-11-08T11:03:35.408322Z",
+  "generation_started_at": "2026-11-08T11:03:12.013849Z",
+  "markets": [
+    {
+      "calendar_id": "XNYS",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 7807.2402,
+          "date": "2026-10-12",
+          "high": 7821.6699,
+          "low": 7796.9399,
+          "open": 7813.04
+        },
+        {
+          "close": 7805.4502,
+          "date": "2026-10-13",
+          "high": 7814.1499,
+          "low": 7786.1099,
+          "open": 7795.27
+        },
+        {
+          "close": 7718.9399,
+          "date": "2026-10-14",
+          "high": 7789.1499,
+          "low": 7693.3101,
+          "open": 7774.1802
+        },
+        {
+          "close": 7744.0601,
+          "date": "2026-10-15",
+          "high": 7754.1499,
+          "low": 7669.6602,
+          "open": 7687.3101
+        },
+        {
+          "close": 7659.4399,
+          "date": "2026-10-16",
+          "high": 7756.8398,
+          "low": 7631.77,
+          "open": 7745.3198
+        },
+        {
+          "close": 7690.73,
+          "date": "2026-10-19",
+          "high": 7731.1802,
+          "low": 7684.79,
+          "open": 7702.77
+        },
+        {
+          "close": 7712.5698,
+          "date": "2026-10-20",
+          "high": 7748.4199,
+          "low": 7668.0298,
+          "open": 7679.0098
+        },
+        {
+          "close": 7757.1699,
+          "date": "2026-10-21",
+          "high": 7770.3999,
+          "low": 7709.3398,
+          "open": 7736.4302
+        },
+        {
+          "close": 7663.4302,
+          "date": "2026-10-22",
+          "high": 7702.9399,
+          "low": 7637.3599,
+          "open": 7694.6201
+        },
+        {
+          "close": 7623.6802,
+          "date": "2026-10-23",
+          "high": 7660.1499,
+          "low": 7612.0698,
+          "open": 7637.1802
+        },
+        {
+          "close": 7676.77,
+          "date": "2026-10-26",
+          "high": 7702.1299,
+          "low": 7639.7002,
+          "open": 7639.7002
+        },
+        {
+          "close": 7722.6001,
+          "date": "2026-10-27",
+          "high": 7736.2402,
+          "low": 7677.1602,
+          "open": 7699.4702
+        },
+        {
+          "close": 7743.98,
+          "date": "2026-10-28",
+          "high": 7758.4302,
+          "low": 7718.3701,
+          "open": 7735.5601
+        },
+        {
+          "close": 7720.3901,
+          "date": "2026-10-29",
+          "high": 7732.21,
+          "low": 7690.9399,
+          "open": 7699.6099
+        },
+        {
+          "close": 7580.0698,
+          "date": "2026-10-30",
+          "high": 7637.48,
+          "low": 7527.5601,
+          "open": 7631.0698
+        },
+        {
+          "close": 7541.3999,
+          "date": "2026-11-02",
+          "high": 7662.23,
+          "low": 7539.3799,
+          "open": 7610.8301
+        },
+        {
+          "close": 7568.9199,
+          "date": "2026-11-03",
+          "high": 7594.6099,
+          "low": 7545.3901,
+          "open": 7552.9199
+        },
+        {
+          "close": 7688.6201,
+          "date": "2026-11-04",
+          "high": 7715.5698,
+          "low": 7635.8101,
+          "open": 7635.8101
+        },
+        {
+          "close": 7353.73,
+          "date": "2026-11-05",
+          "high": 7681.29,
+          "low": 7350.3501,
+          "open": 7678.7202
+        },
+        {
+          "close": 7376.8599,
+          "date": "2026-11-06",
+          "high": 7444.2002,
+          "low": 7369.5498,
+          "open": 7377.6499
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "America/New_York",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T21:15:00Z",
+      "id": "sp500",
+      "input_close_at": "2026-11-06T21:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "标普 500",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:sp500:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": true,
+      "risk": {
+        "continuous_rank": 0.9455213903743316,
+        "discrete_rank": 0.8711229946524064,
+        "model_signal": true,
+        "score": 0.8874906417112299
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:15.295948Z",
+      "target_close_at": "2026-11-09T21:00:00Z",
+      "target_open_at": "2026-11-09T14:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XNYS",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 51850.5508,
+          "date": "2026-10-12",
+          "high": 51928.1016,
+          "low": 51718.6016,
+          "open": 51765.3516
+        },
+        {
+          "close": 51670.1016,
+          "date": "2026-10-13",
+          "high": 52317.3203,
+          "low": 51587.6719,
+          "open": 52092.9883
+        },
+        {
+          "close": 51621.4805,
+          "date": "2026-10-14",
+          "high": 51869.75,
+          "low": 51365.4219,
+          "open": 51684.75
+        },
+        {
+          "close": 52177.6914,
+          "date": "2026-10-15",
+          "high": 52250.1797,
+          "low": 51681.3711,
+          "open": 51858.0586
+        },
+        {
+          "close": 52002.4102,
+          "date": "2026-10-16",
+          "high": 52582.3203,
+          "low": 51847.9414,
+          "open": 52308.2812
+        },
+        {
+          "close": 51966.0312,
+          "date": "2026-10-19",
+          "high": 52134.5781,
+          "low": 51863.8008,
+          "open": 51978.5781
+        },
+        {
+          "close": 52495.8789,
+          "date": "2026-10-20",
+          "high": 52689.8086,
+          "low": 51910.9219,
+          "open": 51959.2109
+        },
+        {
+          "close": 52856.0898,
+          "date": "2026-10-21",
+          "high": 52860.1094,
+          "low": 52392.2812,
+          "open": 52652.8516
+        },
+        {
+          "close": 52867.9805,
+          "date": "2026-10-22",
+          "high": 52927.8789,
+          "low": 52508.3789,
+          "open": 52788.4102
+        },
+        {
+          "close": 52215.1602,
+          "date": "2026-10-23",
+          "high": 52696.6992,
+          "low": 52055.1016,
+          "open": 52696.6992
+        },
+        {
+          "close": 52361.5781,
+          "date": "2026-10-26",
+          "high": 52620.1914,
+          "low": 52263.25,
+          "open": 52320.4492
+        },
+        {
+          "close": 52377.5703,
+          "date": "2026-10-27",
+          "high": 52477.9102,
+          "low": 52231.8398,
+          "open": 52277.4883
+        },
+        {
+          "close": 52475.1016,
+          "date": "2026-10-28",
+          "high": 52634.3203,
+          "low": 52335.4297,
+          "open": 52335.4297
+        },
+        {
+          "close": 52342.5586,
+          "date": "2026-10-29",
+          "high": 52405.8789,
+          "low": 52086.1289,
+          "open": 52086.1289
+        },
+        {
+          "close": 51770.3086,
+          "date": "2026-10-30",
+          "high": 52383.8984,
+          "low": 51563.7617,
+          "open": 52383.8984
+        },
+        {
+          "close": 51983.9805,
+          "date": "2026-11-02",
+          "high": 52424.9102,
+          "low": 51981.6602,
+          "open": 52008.2305
+        },
+        {
+          "close": 51786.7188,
+          "date": "2026-11-03",
+          "high": 51932.6289,
+          "low": 51593.1602,
+          "open": 51932.6289
+        },
+        {
+          "close": 53356.1211,
+          "date": "2026-11-04",
+          "high": 53492.3984,
+          "low": 52410.2305,
+          "open": 52410.2305
+        },
+        {
+          "close": 51523.0586,
+          "date": "2026-11-05",
+          "high": 53710.6094,
+          "low": 51486.8203,
+          "open": 53679.0117
+        },
+        {
+          "close": 51285.7305,
+          "date": "2026-11-06",
+          "high": 51662.2617,
+          "low": 50992.6094,
+          "open": 51078.8516
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "America/New_York",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T21:15:00Z",
+      "id": "dow",
+      "input_close_at": "2026-11-06T21:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "道琼斯",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:dow:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.9328208556149733,
+        "discrete_rank": 0.5806818181818182,
+        "model_signal": true,
+        "score": 0.6581524064171124
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:15.661927Z",
+      "target_close_at": "2026-11-09T21:00:00Z",
+      "target_open_at": "2026-11-09T14:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XETR",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 25277.68,
+          "date": "2026-10-12",
+          "high": 25315.75,
+          "low": 25166.57,
+          "open": 25206.95
+        },
+        {
+          "close": 25259.9,
+          "date": "2026-10-13",
+          "high": 25453.29,
+          "low": 25229.98,
+          "open": 25316.71
+        },
+        {
+          "close": 25298.61,
+          "date": "2026-10-14",
+          "high": 25448.73,
+          "low": 25276.82,
+          "open": 25322.08
+        },
+        {
+          "close": 25382.62,
+          "date": "2026-10-15",
+          "high": 25420.62,
+          "low": 25133.71,
+          "open": 25145.07
+        },
+        {
+          "close": 25622.61,
+          "date": "2026-10-16",
+          "high": 25693.89,
+          "low": 25466.09,
+          "open": 25495.28
+        },
+        {
+          "close": 25319.77,
+          "date": "2026-10-19",
+          "high": 25540.88,
+          "low": 25198.97,
+          "open": 25540.77
+        },
+        {
+          "close": 25304.42,
+          "date": "2026-10-20",
+          "high": 25407.14,
+          "low": 25050.11,
+          "open": 25219.71
+        },
+        {
+          "close": 25645.04,
+          "date": "2026-10-21",
+          "high": 25706.19,
+          "low": 25249.96,
+          "open": 25295.76
+        },
+        {
+          "close": 25371.75,
+          "date": "2026-10-22",
+          "high": 25563.13,
+          "low": 25318.18,
+          "open": 25497.94
+        },
+        {
+          "close": 25181.65,
+          "date": "2026-10-23",
+          "high": 25329.32,
+          "low": 25013.54,
+          "open": 25325.58
+        },
+        {
+          "close": 25410.84,
+          "date": "2026-10-26",
+          "high": 25509.8,
+          "low": 25217.15,
+          "open": 25235.84
+        },
+        {
+          "close": 25590.77,
+          "date": "2026-10-27",
+          "high": 25647.49,
+          "low": 25340.21,
+          "open": 25369.81
+        },
+        {
+          "close": 25704.02,
+          "date": "2026-10-28",
+          "high": 25716.83,
+          "low": 25534.42,
+          "open": 25577.36
+        },
+        {
+          "close": 26039.68,
+          "date": "2026-10-29",
+          "high": 26106.19,
+          "low": 25720.69,
+          "open": 25724.02
+        },
+        {
+          "close": 25818.21,
+          "date": "2026-10-30",
+          "high": 26026.2,
+          "low": 25779.15,
+          "open": 25948.61
+        },
+        {
+          "close": 25981.09,
+          "date": "2026-11-02",
+          "high": 26022.26,
+          "low": 25741.57,
+          "open": 25802.74
+        },
+        {
+          "close": 25864.62,
+          "date": "2026-11-03",
+          "high": 26037.28,
+          "low": 25677.86,
+          "open": 25730.06
+        },
+        {
+          "close": 26437.67,
+          "date": "2026-11-04",
+          "high": 26541.64,
+          "low": 25876.82,
+          "open": 25888.93
+        },
+        {
+          "close": 26325.01,
+          "date": "2026-11-05",
+          "high": 26692.9,
+          "low": 26223.34,
+          "open": 26449.79
+        },
+        {
+          "close": 25820.36,
+          "date": "2026-11-06",
+          "high": 26061.64,
+          "low": 25617.54,
+          "open": 25919.48
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Europe/Berlin",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T16:45:00Z",
+      "id": "dax",
+      "input_close_at": "2026-11-06T16:30:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "德国 DAX",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:dax:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.1318181818181818,
+        "discrete_rank": 0.7747994652406417,
+        "model_signal": true,
+        "score": 0.6333435828877005
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:18.213801Z",
+      "target_close_at": "2026-11-09T16:30:00Z",
+      "target_open_at": "2026-11-09T08:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XLON",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 10656.28,
+          "date": "2026-10-12",
+          "high": 10656.28,
+          "low": 10549.64,
+          "open": 10551.55
+        },
+        {
+          "close": 10650.33,
+          "date": "2026-10-13",
+          "high": 10762.01,
+          "low": 10641.98,
+          "open": 10656.18
+        },
+        {
+          "close": 10724.86,
+          "date": "2026-10-14",
+          "high": 10731.3,
+          "low": 10641.22,
+          "open": 10649.97
+        },
+        {
+          "close": 10840.35,
+          "date": "2026-10-15",
+          "high": 10868.53,
+          "low": 10695.84,
+          "open": 10723.37
+        },
+        {
+          "close": 10881.9,
+          "date": "2026-10-16",
+          "high": 10892.38,
+          "low": 10796.71,
+          "open": 10839.22
+        },
+        {
+          "close": 10764.69,
+          "date": "2026-10-19",
+          "high": 10889.9,
+          "low": 10730.23,
+          "open": 10882.26
+        },
+        {
+          "close": 10733.0,
+          "date": "2026-10-20",
+          "high": 10767.96,
+          "low": 10673.02,
+          "open": 10764.07
+        },
+        {
+          "close": 10752.88,
+          "date": "2026-10-21",
+          "high": 10775.94,
+          "low": 10703.95,
+          "open": 10733.25
+        },
+        {
+          "close": 10725.03,
+          "date": "2026-10-22",
+          "high": 10757.87,
+          "low": 10669.39,
+          "open": 10752.55
+        },
+        {
+          "close": 10690.36,
+          "date": "2026-10-23",
+          "high": 10748.42,
+          "low": 10630.0,
+          "open": 10724.72
+        },
+        {
+          "close": 10767.33,
+          "date": "2026-10-26",
+          "high": 10774.47,
+          "low": 10689.94,
+          "open": 10690.94
+        },
+        {
+          "close": 10686.54,
+          "date": "2026-10-27",
+          "high": 10767.81,
+          "low": 10649.65,
+          "open": 10767.81
+        },
+        {
+          "close": 10694.5,
+          "date": "2026-10-28",
+          "high": 10722.77,
+          "low": 10643.25,
+          "open": 10687.02
+        },
+        {
+          "close": 10722.07,
+          "date": "2026-10-29",
+          "high": 10773.7,
+          "low": 10694.02,
+          "open": 10694.02
+        },
+        {
+          "close": 10729.78,
+          "date": "2026-10-30",
+          "high": 10778.72,
+          "low": 10715.93,
+          "open": 10721.51
+        },
+        {
+          "close": 10761.33,
+          "date": "2026-11-02",
+          "high": 10775.92,
+          "low": 10684.69,
+          "open": 10729.46
+        },
+        {
+          "close": 10638.43,
+          "date": "2026-11-03",
+          "high": 10761.32,
+          "low": 10638.43,
+          "open": 10761.3
+        },
+        {
+          "close": 10829.21,
+          "date": "2026-11-04",
+          "high": 10857.74,
+          "low": 10631.96,
+          "open": 10637.28
+        },
+        {
+          "close": 10782.66,
+          "date": "2026-11-05",
+          "high": 10948.24,
+          "low": 10770.49,
+          "open": 10829.26
+        },
+        {
+          "close": 10673.94,
+          "date": "2026-11-06",
+          "high": 10784.16,
+          "low": 10528.07,
+          "open": 10784.16
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Europe/London",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T16:45:00Z",
+      "id": "ftse100",
+      "input_close_at": "2026-11-06T16:30:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "富时 100",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:ftse100:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.6431818181818182,
+        "discrete_rank": 0.6509358288770053,
+        "model_signal": true,
+        "score": 0.6492299465240641
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:19.230953Z",
+      "target_close_at": "2026-11-09T16:30:00Z",
+      "target_open_at": "2026-11-09T08:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XPAR",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 7832.88,
+          "date": "2026-10-12",
+          "high": 7850.33,
+          "low": 7806.49,
+          "open": 7826.73
+        },
+        {
+          "close": 7827.63,
+          "date": "2026-10-13",
+          "high": 7878.16,
+          "low": 7812.06,
+          "open": 7853.5
+        },
+        {
+          "close": 7873.11,
+          "date": "2026-10-14",
+          "high": 7893.48,
+          "low": 7844.29,
+          "open": 7852.74
+        },
+        {
+          "close": 7934.7,
+          "date": "2026-10-15",
+          "high": 7937.29,
+          "low": 7853.4,
+          "open": 7853.4
+        },
+        {
+          "close": 7956.7,
+          "date": "2026-10-16",
+          "high": 7980.99,
+          "low": 7916.98,
+          "open": 7960.61
+        },
+        {
+          "close": 7868.05,
+          "date": "2026-10-19",
+          "high": 7894.31,
+          "low": 7821.29,
+          "open": 7885.38
+        },
+        {
+          "close": 7838.49,
+          "date": "2026-10-20",
+          "high": 7871.32,
+          "low": 7783.22,
+          "open": 7842.33
+        },
+        {
+          "close": 7921.68,
+          "date": "2026-10-21",
+          "high": 7926.38,
+          "low": 7830.9,
+          "open": 7834.51
+        },
+        {
+          "close": 7811.26,
+          "date": "2026-10-22",
+          "high": 7859.66,
+          "low": 7791.63,
+          "open": 7857.01
+        },
+        {
+          "close": 7782.82,
+          "date": "2026-10-23",
+          "high": 7812.76,
+          "low": 7728.45,
+          "open": 7812.23
+        },
+        {
+          "close": 7847.32,
+          "date": "2026-10-26",
+          "high": 7873.64,
+          "low": 7814.41,
+          "open": 7816.51
+        },
+        {
+          "close": 7887.14,
+          "date": "2026-10-27",
+          "high": 7909.74,
+          "low": 7810.92,
+          "open": 7816.15
+        },
+        {
+          "close": 7886.96,
+          "date": "2026-10-28",
+          "high": 7918.74,
+          "low": 7870.75,
+          "open": 7916.41
+        },
+        {
+          "close": 7970.0,
+          "date": "2026-10-29",
+          "high": 7998.12,
+          "low": 7923.22,
+          "open": 7931.91
+        },
+        {
+          "close": 7969.42,
+          "date": "2026-10-30",
+          "high": 7992.17,
+          "low": 7952.39,
+          "open": 7973.86
+        },
+        {
+          "close": 8047.69,
+          "date": "2026-11-02",
+          "high": 8054.23,
+          "low": 7944.72,
+          "open": 7958.89
+        },
+        {
+          "close": 8020.31,
+          "date": "2026-11-03",
+          "high": 8107.26,
+          "low": 7986.55,
+          "open": 7997.91
+        },
+        {
+          "close": 8177.89,
+          "date": "2026-11-04",
+          "high": 8215.86,
+          "low": 8030.69,
+          "open": 8034.53
+        },
+        {
+          "close": 8205.37,
+          "date": "2026-11-05",
+          "high": 8286.43,
+          "low": 8182.49,
+          "open": 8248.9
+        },
+        {
+          "close": 8139.0,
+          "date": "2026-11-06",
+          "high": 8140.54,
+          "low": 8049.64,
+          "open": 8105.06
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Europe/Paris",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T16:45:00Z",
+      "id": "cac40",
+      "input_close_at": "2026-11-06T16:30:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "法国 CAC 40",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:cac40:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.30421122994652405,
+        "discrete_rank": 0.7919786096256685,
+        "model_signal": true,
+        "score": 0.6846697860962567
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:20.260807Z",
+      "target_close_at": "2026-11-09T16:30:00Z",
+      "target_open_at": "2026-11-09T08:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XTKS",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 69042.11,
+          "date": "2026-10-08",
+          "high": 69918.2,
+          "low": 69042.11,
+          "open": 69840.64
+        },
+        {
+          "close": 69030.92,
+          "date": "2026-10-09",
+          "high": 69143.45,
+          "low": 68150.02,
+          "open": 68648.5
+        },
+        {
+          "close": 67777.52,
+          "date": "2026-10-13",
+          "high": 68710.99,
+          "low": 67058.56,
+          "open": 68564.85
+        },
+        {
+          "close": 67744.29,
+          "date": "2026-10-14",
+          "high": 68408.14,
+          "low": 67533.1,
+          "open": 67942.23
+        },
+        {
+          "close": 64425.95,
+          "date": "2026-10-15",
+          "high": 66929.3,
+          "low": 64092.74,
+          "open": 66880.37
+        },
+        {
+          "close": 65324.29,
+          "date": "2026-10-16",
+          "high": 65712.3,
+          "low": 64800.9,
+          "open": 64925.29
+        },
+        {
+          "close": 64916.7,
+          "date": "2026-10-19",
+          "high": 65067.8,
+          "low": 63831.78,
+          "open": 64819.56
+        },
+        {
+          "close": 64075.42,
+          "date": "2026-10-20",
+          "high": 64822.22,
+          "low": 63807.15,
+          "open": 64755.49
+        },
+        {
+          "close": 64621.24,
+          "date": "2026-10-21",
+          "high": 65404.63,
+          "low": 64558.6,
+          "open": 64885.95
+        },
+        {
+          "close": 62907.84,
+          "date": "2026-10-22",
+          "high": 64866.44,
+          "low": 62907.84,
+          "open": 64539.36
+        },
+        {
+          "close": 62693.16,
+          "date": "2026-10-23",
+          "high": 62786.89,
+          "low": 61462.61,
+          "open": 62667.05
+        },
+        {
+          "close": 62189.65,
+          "date": "2026-10-26",
+          "high": 62902.95,
+          "low": 62094.34,
+          "open": 62449.96
+        },
+        {
+          "close": 63268.37,
+          "date": "2026-10-27",
+          "high": 63684.69,
+          "low": 62389.47,
+          "open": 62569.08
+        },
+        {
+          "close": 63954.19,
+          "date": "2026-10-28",
+          "high": 64308.71,
+          "low": 63660.3,
+          "open": 63738.98
+        },
+        {
+          "close": 64659.47,
+          "date": "2026-10-29",
+          "high": 64831.29,
+          "low": 63749.2,
+          "open": 64126.25
+        },
+        {
+          "close": 63290.11,
+          "date": "2026-10-30",
+          "high": 64589.04,
+          "low": 62711.42,
+          "open": 64344.37
+        },
+        {
+          "close": 63081.86,
+          "date": "2026-11-02",
+          "high": 63615.32,
+          "low": 62712.91,
+          "open": 62972.02
+        },
+        {
+          "close": 62188.63,
+          "date": "2026-11-04",
+          "high": 63105.47,
+          "low": 60030.1,
+          "open": 62973.16
+        },
+        {
+          "close": 61077.9,
+          "date": "2026-11-05",
+          "high": 62653.98,
+          "low": 60786.19,
+          "open": 62384.73
+        },
+        {
+          "close": 57434.77,
+          "date": "2026-11-06",
+          "high": 60374.35,
+          "low": 56745.81,
+          "open": 60374.35
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Asia/Tokyo",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T06:45:00Z",
+      "id": "nikkei225",
+      "input_close_at": "2026-11-06T06:30:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "日经 225",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:nikkei225:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": true,
+      "risk": {
+        "continuous_rank": 0.6135026737967915,
+        "discrete_rank": 0.9991310160427808,
+        "model_signal": true,
+        "score": 0.9142927807486632
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:21.255947Z",
+      "target_close_at": "2026-11-09T06:30:00Z",
+      "target_open_at": "2026-11-09T00:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XHKG",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 24211.34961,
+          "date": "2026-10-09",
+          "high": 24224.05,
+          "low": 23941.26,
+          "open": 23941.26
+        },
+        {
+          "close": 24271.19922,
+          "date": "2026-10-12",
+          "high": 24455.95,
+          "low": 24193.3,
+          "open": 24434.93
+        },
+        {
+          "close": 24345.21875,
+          "date": "2026-10-13",
+          "high": 24345.22,
+          "low": 23987.77,
+          "open": 24172.09
+        },
+        {
+          "close": 24314.16992,
+          "date": "2026-10-14",
+          "high": 24524.63,
+          "low": 24115.0,
+          "open": 24282.25
+        },
+        {
+          "close": 24062.7207,
+          "date": "2026-10-15",
+          "high": 24162.71,
+          "low": 23945.84,
+          "open": 24119.14
+        },
+        {
+          "close": 24186.83008,
+          "date": "2026-10-16",
+          "high": 24392.3,
+          "low": 24087.23,
+          "open": 24321.45
+        },
+        {
+          "close": 23867.74023,
+          "date": "2026-10-20",
+          "high": 24035.0,
+          "low": 23846.99,
+          "open": 23990.05
+        },
+        {
+          "close": 23651.87109,
+          "date": "2026-10-21",
+          "high": 24139.11,
+          "low": 23620.1,
+          "open": 24139.11
+        },
+        {
+          "close": 22934.67969,
+          "date": "2026-10-22",
+          "high": 23513.79,
+          "low": 22879.11,
+          "open": 23513.79
+        },
+        {
+          "close": 23093.36914,
+          "date": "2026-10-23",
+          "high": 23231.63,
+          "low": 22803.77,
+          "open": 23027.98
+        },
+        {
+          "close": 23211.81055,
+          "date": "2026-10-26",
+          "high": 23259.13,
+          "low": 23009.79,
+          "open": 23156.96
+        },
+        {
+          "close": 23041.32031,
+          "date": "2026-10-27",
+          "high": 23313.92,
+          "low": 22983.99,
+          "open": 23260.14
+        },
+        {
+          "close": 23094.83008,
+          "date": "2026-10-28",
+          "high": 23157.4,
+          "low": 23023.04,
+          "open": 23083.99
+        },
+        {
+          "close": 22958.65039,
+          "date": "2026-10-29",
+          "high": 23184.09,
+          "low": 22928.27,
+          "open": 23088.14
+        },
+        {
+          "close": 23294.41992,
+          "date": "2026-10-30",
+          "high": 23400.02,
+          "low": 22947.96,
+          "open": 23011.29
+        },
+        {
+          "close": 23393.32031,
+          "date": "2026-11-02",
+          "high": 23543.3,
+          "low": 23271.26,
+          "open": 23301.74
+        },
+        {
+          "close": 23525.96875,
+          "date": "2026-11-03",
+          "high": 23549.31,
+          "low": 23347.03,
+          "open": 23469.64
+        },
+        {
+          "close": 23919.5,
+          "date": "2026-11-04",
+          "high": 23919.5,
+          "low": 23385.29,
+          "open": 23451.79
+        },
+        {
+          "close": 24796.97852,
+          "date": "2026-11-05",
+          "high": 24871.92,
+          "low": 24281.77,
+          "open": 24316.94
+        },
+        {
+          "close": 24481.85938,
+          "date": "2026-11-06",
+          "high": 24740.18,
+          "low": 24349.3,
+          "open": 24404.62
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Asia/Hong_Kong",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T08:15:00Z",
+      "id": "hangseng",
+      "input_close_at": "2026-11-06T08:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "恒生指数",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:hangseng:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.4947860962566845,
+        "discrete_rank": 0.8068850267379679,
+        "model_signal": true,
+        "score": 0.7382232620320855
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:21.790463Z",
+      "target_close_at": "2026-11-09T08:00:00Z",
+      "target_open_at": "2026-11-09T01:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XSHG",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 3797.242,
+          "date": "2026-10-12",
+          "high": 3828.216,
+          "low": 3790.995,
+          "open": 3806.979
+        },
+        {
+          "close": 3800.864,
+          "date": "2026-10-13",
+          "high": 3822.105,
+          "low": 3741.526,
+          "open": 3760.799
+        },
+        {
+          "close": 3767.227,
+          "date": "2026-10-14",
+          "high": 3811.809,
+          "low": 3761.957,
+          "open": 3790.631
+        },
+        {
+          "close": 3707.476,
+          "date": "2026-10-15",
+          "high": 3724.561,
+          "low": 3674.817,
+          "open": 3710.695
+        },
+        {
+          "close": 3716.284,
+          "date": "2026-10-16",
+          "high": 3750.77,
+          "low": 3681.283,
+          "open": 3723.797
+        },
+        {
+          "close": 3730.92,
+          "date": "2026-10-19",
+          "high": 3743.799,
+          "low": 3692.29,
+          "open": 3694.118
+        },
+        {
+          "close": 3735.37,
+          "date": "2026-10-20",
+          "high": 3740.072,
+          "low": 3702.444,
+          "open": 3718.436
+        },
+        {
+          "close": 3713.028,
+          "date": "2026-10-21",
+          "high": 3743.085,
+          "low": 3703.125,
+          "open": 3740.568
+        },
+        {
+          "close": 3658.026,
+          "date": "2026-10-22",
+          "high": 3714.476,
+          "low": 3649.865,
+          "open": 3714.476
+        },
+        {
+          "close": 3690.475,
+          "date": "2026-10-23",
+          "high": 3691.399,
+          "low": 3574.271,
+          "open": 3623.567
+        },
+        {
+          "close": 3697.52,
+          "date": "2026-10-26",
+          "high": 3699.01,
+          "low": 3664.821,
+          "open": 3671.004
+        },
+        {
+          "close": 3648.301,
+          "date": "2026-10-27",
+          "high": 3708.198,
+          "low": 3648.301,
+          "open": 3698.441
+        },
+        {
+          "close": 3681.469,
+          "date": "2026-10-28",
+          "high": 3684.491,
+          "low": 3652.366,
+          "open": 3676.919
+        },
+        {
+          "close": 3651.434,
+          "date": "2026-10-29",
+          "high": 3678.458,
+          "low": 3645.26,
+          "open": 3676.773
+        },
+        {
+          "close": 3599.017,
+          "date": "2026-10-30",
+          "high": 3660.206,
+          "low": 3595.258,
+          "open": 3605.645
+        },
+        {
+          "close": 3638.031,
+          "date": "2026-11-02",
+          "high": 3648.133,
+          "low": 3594.768,
+          "open": 3614.311
+        },
+        {
+          "close": 3608.098,
+          "date": "2026-11-03",
+          "high": 3624.58,
+          "low": 3580.376,
+          "open": 3624.58
+        },
+        {
+          "close": 3686.173,
+          "date": "2026-11-04",
+          "high": 3686.173,
+          "low": 3590.798,
+          "open": 3605.388
+        },
+        {
+          "close": 3689.911,
+          "date": "2026-11-05",
+          "high": 3701.586,
+          "low": 3646.572,
+          "open": 3646.572
+        },
+        {
+          "close": 3649.177,
+          "date": "2026-11-06",
+          "high": 3660.486,
+          "low": 3610.198,
+          "open": 3612.147
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Asia/Shanghai",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T07:15:00Z",
+      "id": "sse50",
+      "input_close_at": "2026-11-06T07:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "上证指数",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:sse50:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.5016711229946524,
+        "discrete_rank": 0.691644385026738,
+        "model_signal": true,
+        "score": 0.6498502673796791
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:22.135822Z",
+      "target_close_at": "2026-11-09T07:00:00Z",
+      "target_open_at": "2026-11-09T01:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XSHG",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 4287.98,
+          "date": "2026-10-12",
+          "high": 4334.29,
+          "low": 4279.707,
+          "open": 4305.915
+        },
+        {
+          "close": 4275.68,
+          "date": "2026-10-13",
+          "high": 4310.333,
+          "low": 4216.86,
+          "open": 4236.949
+        },
+        {
+          "close": 4217.68,
+          "date": "2026-10-14",
+          "high": 4281.462,
+          "low": 4214.007,
+          "open": 4259.333
+        },
+        {
+          "close": 4166.012,
+          "date": "2026-10-15",
+          "high": 4176.095,
+          "low": 4115.072,
+          "open": 4145.947
+        },
+        {
+          "close": 4170.613,
+          "date": "2026-10-16",
+          "high": 4206.89,
+          "low": 4127.942,
+          "open": 4189.26
+        },
+        {
+          "close": 4174.535,
+          "date": "2026-10-19",
+          "high": 4192.025,
+          "low": 4143.658,
+          "open": 4148.347
+        },
+        {
+          "close": 4152.108,
+          "date": "2026-10-20",
+          "high": 4175.21,
+          "low": 4113.135,
+          "open": 4157.933
+        },
+        {
+          "close": 4111.933,
+          "date": "2026-10-21",
+          "high": 4161.257,
+          "low": 4098.961,
+          "open": 4161.257
+        },
+        {
+          "close": 4036.297,
+          "date": "2026-10-22",
+          "high": 4110.649,
+          "low": 4022.869,
+          "open": 4110.649
+        },
+        {
+          "close": 4105.329,
+          "date": "2026-10-23",
+          "high": 4109.518,
+          "low": 3958.138,
+          "open": 3992.904
+        },
+        {
+          "close": 4103.543,
+          "date": "2026-10-26",
+          "high": 4107.794,
+          "low": 4057.563,
+          "open": 4078.57
+        },
+        {
+          "close": 4049.552,
+          "date": "2026-10-27",
+          "high": 4110.002,
+          "low": 4049.542,
+          "open": 4105.481
+        },
+        {
+          "close": 4083.87,
+          "date": "2026-10-28",
+          "high": 4088.023,
+          "low": 4054.112,
+          "open": 4084.615
+        },
+        {
+          "close": 4041.838,
+          "date": "2026-10-29",
+          "high": 4075.473,
+          "low": 4030.23,
+          "open": 4075.473
+        },
+        {
+          "close": 3985.501,
+          "date": "2026-10-30",
+          "high": 4046.868,
+          "low": 3968.856,
+          "open": 3985.236
+        },
+        {
+          "close": 4016.918,
+          "date": "2026-11-02",
+          "high": 4038.815,
+          "low": 3988.168,
+          "open": 4005.94
+        },
+        {
+          "close": 4008.875,
+          "date": "2026-11-03",
+          "high": 4028.737,
+          "low": 3969.547,
+          "open": 4005.251
+        },
+        {
+          "close": 4101.335,
+          "date": "2026-11-04",
+          "high": 4105.858,
+          "low": 3987.152,
+          "open": 4007.351
+        },
+        {
+          "close": 4113.411,
+          "date": "2026-11-05",
+          "high": 4136.798,
+          "low": 4065.724,
+          "open": 4065.724
+        },
+        {
+          "close": 4054.277,
+          "date": "2026-11-06",
+          "high": 4069.072,
+          "low": 4013.793,
+          "open": 4017.94
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "Asia/Shanghai",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T07:15:00Z",
+      "id": "hs300",
+      "input_close_at": "2026-11-06T07:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "沪深 300",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:hs300:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.5187165775401069,
+        "discrete_rank": 0.7526737967914439,
+        "model_signal": true,
+        "score": 0.7012032085561498
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:22.705316Z",
+      "target_close_at": "2026-11-09T07:00:00Z",
+      "target_open_at": "2026-11-09T01:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XNAS",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 27245.9023,
+          "date": "2026-10-12",
+          "high": 27376.6602,
+          "low": 27219.4199,
+          "open": 27352.5098
+        },
+        {
+          "close": 27204.3809,
+          "date": "2026-10-13",
+          "high": 27277.8828,
+          "low": 27116.0801,
+          "open": 27138.7285
+        },
+        {
+          "close": 26692.8691,
+          "date": "2026-10-14",
+          "high": 27134.2852,
+          "low": 26602.1152,
+          "open": 27031.6406
+        },
+        {
+          "close": 26713.0254,
+          "date": "2026-10-15",
+          "high": 26754.0156,
+          "low": 26308.8457,
+          "open": 26380.7734
+        },
+        {
+          "close": 26140.0332,
+          "date": "2026-10-16",
+          "high": 26674.6602,
+          "low": 26023.1016,
+          "open": 26652.9844
+        },
+        {
+          "close": 26430.8867,
+          "date": "2026-10-19",
+          "high": 26613.1465,
+          "low": 26344.666,
+          "open": 26395.2871
+        },
+        {
+          "close": 26424.8164,
+          "date": "2026-10-20",
+          "high": 26601.7148,
+          "low": 26179.7363,
+          "open": 26332.9219
+        },
+        {
+          "close": 26702.8574,
+          "date": "2026-10-21",
+          "high": 26778.9043,
+          "low": 26507.0664,
+          "open": 26601.7324
+        },
+        {
+          "close": 26008.8594,
+          "date": "2026-10-22",
+          "high": 26359.4062,
+          "low": 25918.0918,
+          "open": 26308.4062
+        },
+        {
+          "close": 25955.3418,
+          "date": "2026-10-23",
+          "high": 26111.623,
+          "low": 25866.1523,
+          "open": 25893.9531
+        },
+        {
+          "close": 26169.3809,
+          "date": "2026-10-26",
+          "high": 26306.8242,
+          "low": 25986.5586,
+          "open": 26026.8652
+        },
+        {
+          "close": 26477.8105,
+          "date": "2026-10-27",
+          "high": 26540.8145,
+          "low": 26219.3125,
+          "open": 26286.3066
+        },
+        {
+          "close": 26549.8516,
+          "date": "2026-10-28",
+          "high": 26587.3379,
+          "low": 26414.9219,
+          "open": 26541.6074
+        },
+        {
+          "close": 26184.7246,
+          "date": "2026-10-29",
+          "high": 26286.4609,
+          "low": 26053.1621,
+          "open": 26201.8242
+        },
+        {
+          "close": 25436.998,
+          "date": "2026-10-30",
+          "high": 25672.998,
+          "low": 25177.3301,
+          "open": 25592.4863
+        },
+        {
+          "close": 25164.3164,
+          "date": "2026-11-02",
+          "high": 25799.4551,
+          "low": 25145.9512,
+          "open": 25600.1738
+        },
+        {
+          "close": 25372.0098,
+          "date": "2026-11-03",
+          "high": 25474.4629,
+          "low": 25246.6348,
+          "open": 25246.6348
+        },
+        {
+          "close": 25736.5137,
+          "date": "2026-11-04",
+          "high": 26048.8301,
+          "low": 25602.1367,
+          "open": 25652.7812
+        },
+        {
+          "close": 24314.998,
+          "date": "2026-11-05",
+          "high": 25559.0312,
+          "low": 24262.1445,
+          "open": 25558.1094
+        },
+        {
+          "close": 24579.4238,
+          "date": "2026-11-06",
+          "high": 24825.5469,
+          "low": 24507.6309,
+          "open": 24602.4824
+        }
+      ],
+      "coverage": "original",
+      "data_status": "unverified",
+      "exchange_timezone": "America/New_York",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T21:15:00Z",
+      "id": "nasdaq",
+      "input_close_at": "2026-11-06T21:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "纳斯达克",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:nasdaq:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": true,
+      "risk": {
+        "continuous_rank": 0.9997994652406417,
+        "discrete_rank": 0.9522727272727273,
+        "model_signal": true,
+        "score": 0.9627286096256684
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:22.997584Z",
+      "target_close_at": "2026-11-09T21:00:00Z",
+      "target_open_at": "2026-11-09T14:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "STOXX_EUROPE",
+      "calendar_version": "stoxx-europe-2026-11-05-v1",
+      "candles": [
+        {
+          "close": 6201.22,
+          "date": "2026-10-12",
+          "high": 6221.89,
+          "low": 6176.38,
+          "open": 6176.38
+        },
+        {
+          "close": 6167.02,
+          "date": "2026-10-13",
+          "high": 6224.39,
+          "low": 6164.69,
+          "open": 6190.92
+        },
+        {
+          "close": 6190.38,
+          "date": "2026-10-14",
+          "high": 6215.81,
+          "low": 6175.67,
+          "open": 6175.94
+        },
+        {
+          "close": 6168.27,
+          "date": "2026-10-15",
+          "high": 6175.92,
+          "low": 6119.49,
+          "open": 6170.7
+        },
+        {
+          "close": 6204.24,
+          "date": "2026-10-16",
+          "high": 6223.62,
+          "low": 6177.45,
+          "open": 6177.45
+        },
+        {
+          "close": 6144.82,
+          "date": "2026-10-19",
+          "high": 6189.9,
+          "low": 6113.93,
+          "open": 6189.9
+        },
+        {
+          "close": 6121.67,
+          "date": "2026-10-20",
+          "high": 6151.17,
+          "low": 6070.22,
+          "open": 6120.97
+        },
+        {
+          "close": 6207.53,
+          "date": "2026-10-21",
+          "high": 6210.52,
+          "low": 6125.45,
+          "open": 6138.99
+        },
+        {
+          "close": 6087.02,
+          "date": "2026-10-22",
+          "high": 6192.11,
+          "low": 6084.11,
+          "open": 6192.11
+        },
+        {
+          "close": 6068.23,
+          "date": "2026-10-23",
+          "high": 6097.16,
+          "low": 6021.09,
+          "open": 6094.43
+        },
+        {
+          "close": 6116.24,
+          "date": "2026-10-26",
+          "high": 6131.37,
+          "low": 6061.5,
+          "open": 6061.5
+        },
+        {
+          "close": 6164.7,
+          "date": "2026-10-27",
+          "high": 6174.35,
+          "low": 6095.64,
+          "open": 6109.0
+        },
+        {
+          "close": 6167.82,
+          "date": "2026-10-28",
+          "high": 6181.34,
+          "low": 6140.57,
+          "open": 6177.33
+        },
+        {
+          "close": 6207.08,
+          "date": "2026-10-29",
+          "high": 6222.72,
+          "low": 6147.28,
+          "open": 6159.08
+        },
+        {
+          "close": 6131.32,
+          "date": "2026-10-30",
+          "high": 6179.29,
+          "low": 6123.0,
+          "open": 6179.29
+        },
+        {
+          "close": 6176.07,
+          "date": "2026-11-02",
+          "high": 6189.68,
+          "low": 6122.8,
+          "open": 6134.72
+        },
+        {
+          "close": 6144.57,
+          "date": "2026-11-03",
+          "high": 6201.16,
+          "low": 6102.57,
+          "open": 6159.88
+        },
+        {
+          "close": 6265.72,
+          "date": "2026-11-04",
+          "high": 6291.15,
+          "low": 6147.1,
+          "open": 6147.1
+        },
+        {
+          "close": 6231.55,
+          "date": "2026-11-05",
+          "high": 6318.59,
+          "low": 6195.9,
+          "open": 6287.08
+        },
+        {
+          "close": 6170.5,
+          "date": "2026-11-06",
+          "high": 6207.7,
+          "low": 6122.47,
+          "open": 6207.7
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unverified",
+      "exchange_timezone": "Europe/Zurich",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T17:15:00Z",
+      "id": "stoxx50",
+      "input_close_at": "2026-11-06T17:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "欧洲 STOXX 50",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:stoxx50:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.6528743315508021,
+        "discrete_rank": 0.8101604278074866,
+        "model_signal": true,
+        "score": 0.7755574866310161
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:24.348789Z",
+      "target_close_at": "2026-11-09T17:00:00Z",
+      "target_open_at": "2026-11-09T08:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XTSE",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 35664.62,
+          "date": "2026-10-09",
+          "high": 35683.33,
+          "low": 35321.92,
+          "open": 35321.92
+        },
+        {
+          "close": 35983.98,
+          "date": "2026-10-13",
+          "high": 36045.56,
+          "low": 35711.04,
+          "open": 35711.04
+        },
+        {
+          "close": 35584.46,
+          "date": "2026-10-14",
+          "high": 35900.65,
+          "low": 35393.63,
+          "open": 35856.7
+        },
+        {
+          "close": 36137.1,
+          "date": "2026-10-15",
+          "high": 36142.99,
+          "low": 35456.73,
+          "open": 35520.56
+        },
+        {
+          "close": 36176.55,
+          "date": "2026-10-16",
+          "high": 36462.46,
+          "low": 36018.76,
+          "open": 36161.31
+        },
+        {
+          "close": 35928.63,
+          "date": "2026-10-19",
+          "high": 36109.56,
+          "low": 35815.35,
+          "open": 36109.56
+        },
+        {
+          "close": 36107.96,
+          "date": "2026-10-20",
+          "high": 36222.11,
+          "low": 35805.03,
+          "open": 35840.07
+        },
+        {
+          "close": 36324.99,
+          "date": "2026-10-21",
+          "high": 36428.83,
+          "low": 36138.55,
+          "open": 36138.55
+        },
+        {
+          "close": 35973.45,
+          "date": "2026-10-22",
+          "high": 36161.69,
+          "low": 35806.38,
+          "open": 36161.69
+        },
+        {
+          "close": 35788.18,
+          "date": "2026-10-23",
+          "high": 35878.63,
+          "low": 35491.62,
+          "open": 35857.64
+        },
+        {
+          "close": 35944.16,
+          "date": "2026-10-26",
+          "high": 36076.75,
+          "low": 35827.94,
+          "open": 35827.94
+        },
+        {
+          "close": 36171.49,
+          "date": "2026-10-27",
+          "high": 36197.51,
+          "low": 35882.56,
+          "open": 35978.63
+        },
+        {
+          "close": 36265.09,
+          "date": "2026-10-28",
+          "high": 36324.99,
+          "low": 36097.97,
+          "open": 36165.68
+        },
+        {
+          "close": 36249.03,
+          "date": "2026-10-29",
+          "high": 36342.99,
+          "low": 36084.59,
+          "open": 36185.7
+        },
+        {
+          "close": 35620.03,
+          "date": "2026-10-30",
+          "high": 36049.56,
+          "low": 35310.46,
+          "open": 36049.56
+        },
+        {
+          "close": 35801.09,
+          "date": "2026-11-02",
+          "high": 36042.35,
+          "low": 35682.49,
+          "open": 35723.41
+        },
+        {
+          "close": 35532.28,
+          "date": "2026-11-03",
+          "high": 35707.2,
+          "low": 35437.8,
+          "open": 35518.78
+        },
+        {
+          "close": 36341.4,
+          "date": "2026-11-04",
+          "high": 36417.13,
+          "low": 35879.03,
+          "open": 35879.03
+        },
+        {
+          "close": 35605.27,
+          "date": "2026-11-05",
+          "high": 36548.54,
+          "low": 35513.65,
+          "open": 36509.87
+        },
+        {
+          "close": 35789.09,
+          "date": "2026-11-06",
+          "high": 35946.33,
+          "low": 35397.44,
+          "open": 35500.64
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unverified",
+      "exchange_timezone": "America/Toronto",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T21:15:00Z",
+      "id": "tsx",
+      "input_close_at": "2026-11-06T21:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "加拿大 TSX",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:tsx:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.902139037433155,
+        "discrete_rank": 0.3578208556149733,
+        "model_signal": false,
+        "score": 0.4775708556149733
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:25.179686Z",
+      "target_close_at": "2026-11-09T21:00:00Z",
+      "target_open_at": "2026-11-09T14:30:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "BVMF",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 206220.24,
+          "date": "2026-10-08",
+          "high": 207953.74,
+          "low": 203984.57,
+          "open": 204299.7
+        },
+        {
+          "close": 209066.9,
+          "date": "2026-10-09",
+          "high": 209713.45,
+          "low": 206237.55,
+          "open": 206237.55
+        },
+        {
+          "close": 206887.52,
+          "date": "2026-10-13",
+          "high": 209071.98,
+          "low": 206146.15,
+          "open": 209071.98
+        },
+        {
+          "close": 206505.98,
+          "date": "2026-10-14",
+          "high": 207220.81,
+          "low": 203463.77,
+          "open": 206881.0
+        },
+        {
+          "close": 204324.26,
+          "date": "2026-10-15",
+          "high": 206520.28,
+          "low": 203110.43,
+          "open": 206486.82
+        },
+        {
+          "close": 205430.33,
+          "date": "2026-10-16",
+          "high": 206305.26,
+          "low": 204164.17,
+          "open": 204323.74
+        },
+        {
+          "close": 205079.25,
+          "date": "2026-10-19",
+          "high": 207387.56,
+          "low": 204268.99,
+          "open": 205439.71
+        },
+        {
+          "close": 208295.98,
+          "date": "2026-10-20",
+          "high": 208941.57,
+          "low": 205082.26,
+          "open": 205082.26
+        },
+        {
+          "close": 206495.23,
+          "date": "2026-10-21",
+          "high": 209244.71,
+          "low": 205988.0,
+          "open": 208295.98
+        },
+        {
+          "close": 204120.12,
+          "date": "2026-10-22",
+          "high": 206493.11,
+          "low": 203051.87,
+          "open": 206492.22
+        },
+        {
+          "close": 205082.56,
+          "date": "2026-10-23",
+          "high": 205757.04,
+          "low": 203428.0,
+          "open": 204119.86
+        },
+        {
+          "close": 176608.23,
+          "date": "2026-10-26",
+          "high": 205088.74,
+          "low": 169516.43,
+          "open": 205070.19
+        },
+        {
+          "close": 175710.05,
+          "date": "2026-10-27",
+          "high": 178526.08,
+          "low": 175130.23,
+          "open": 176608.94
+        },
+        {
+          "close": 171006.1,
+          "date": "2026-10-28",
+          "high": 175711.22,
+          "low": 170162.48,
+          "open": 175711.22
+        },
+        {
+          "close": 169186.42,
+          "date": "2026-10-29",
+          "high": 171402.97,
+          "low": 168765.35,
+          "open": 171006.1
+        },
+        {
+          "close": 167921.8,
+          "date": "2026-10-30",
+          "high": 169184.6,
+          "low": 167007.57,
+          "open": 169184.6
+        },
+        {
+          "close": 165528.92,
+          "date": "2026-11-03",
+          "high": 168005.46,
+          "low": 164446.53,
+          "open": 167917.3
+        },
+        {
+          "close": 167563.47,
+          "date": "2026-11-04",
+          "high": 167986.37,
+          "low": 165541.38,
+          "open": 165547.88
+        },
+        {
+          "close": 166191.45,
+          "date": "2026-11-05",
+          "high": 168994.33,
+          "low": 166189.74,
+          "open": 167565.05
+        },
+        {
+          "close": 168498.45,
+          "date": "2026-11-06",
+          "high": 169073.04,
+          "low": 165909.74,
+          "open": 166191.45
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unverified",
+      "exchange_timezone": "America/Sao_Paulo",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T21:15:00Z",
+      "id": "bovespa",
+      "input_close_at": "2026-11-06T21:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "巴西 BOVESPA",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:bovespa:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": true,
+      "risk": {
+        "continuous_rank": 0.991644385026738,
+        "discrete_rank": 0.9627005347593582,
+        "model_signal": true,
+        "score": 0.9690681818181818
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:26.316298Z",
+      "target_close_at": "2026-11-09T21:00:00Z",
+      "target_open_at": "2026-11-09T13:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XKRX",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 6384.24,
+          "date": "2026-10-12",
+          "high": 6589.69,
+          "low": 6368.49,
+          "open": 6578.17
+        },
+        {
+          "close": 6035.35,
+          "date": "2026-10-13",
+          "high": 6198.46,
+          "low": 5911.11,
+          "open": 6186.08
+        },
+        {
+          "close": 6008.81,
+          "date": "2026-10-14",
+          "high": 6190.65,
+          "low": 5944.65,
+          "open": 6062.08
+        },
+        {
+          "close": 5554.22,
+          "date": "2026-10-15",
+          "high": 5751.45,
+          "low": 5450.81,
+          "open": 5673.01
+        },
+        {
+          "close": 5668.05,
+          "date": "2026-10-16",
+          "high": 5809.94,
+          "low": 5590.33,
+          "open": 5653.99
+        },
+        {
+          "close": 5768.01,
+          "date": "2026-10-19",
+          "high": 5768.01,
+          "low": 5488.41,
+          "open": 5488.41
+        },
+        {
+          "close": 5552.74,
+          "date": "2026-10-20",
+          "high": 5733.57,
+          "low": 5493.24,
+          "open": 5733.57
+        },
+        {
+          "close": 5735.66,
+          "date": "2026-10-21",
+          "high": 5816.43,
+          "low": 5630.14,
+          "open": 5666.34
+        },
+        {
+          "close": 5533.77,
+          "date": "2026-10-22",
+          "high": 5740.28,
+          "low": 5485.98,
+          "open": 5670.11
+        },
+        {
+          "close": 5550.3,
+          "date": "2026-10-23",
+          "high": 5550.3,
+          "low": 5305.98,
+          "open": 5403.17
+        },
+        {
+          "close": 5469.47,
+          "date": "2026-10-26",
+          "high": 5565.67,
+          "low": 5455.11,
+          "open": 5499.05
+        },
+        {
+          "close": 5638.34,
+          "date": "2026-10-27",
+          "high": 5737.61,
+          "low": 5612.92,
+          "open": 5658.65
+        },
+        {
+          "close": 6012.44,
+          "date": "2026-10-28",
+          "high": 6032.28,
+          "low": 5745.51,
+          "open": 5763.85
+        },
+        {
+          "close": 5937.66,
+          "date": "2026-10-29",
+          "high": 6100.11,
+          "low": 5817.92,
+          "open": 6017.22
+        },
+        {
+          "close": 5730.74,
+          "date": "2026-10-30",
+          "high": 5784.98,
+          "low": 5599.42,
+          "open": 5760.35
+        },
+        {
+          "close": 5859.0801,
+          "date": "2026-11-02",
+          "high": 5910.8301,
+          "low": 5616.5,
+          "open": 5637.77
+        },
+        {
+          "close": 5648.79,
+          "date": "2026-11-03",
+          "high": 5735.9199,
+          "low": 5615.7998,
+          "open": 5715.1899
+        },
+        {
+          "close": 5683.7998,
+          "date": "2026-11-04",
+          "high": 5828.1299,
+          "low": 5421.7202,
+          "open": 5786.1299
+        },
+        {
+          "close": 5383.7998,
+          "date": "2026-11-05",
+          "high": 5586.46,
+          "low": 5336.8799,
+          "open": 5580.0898
+        },
+        {
+          "close": 5059.6899,
+          "date": "2026-11-06",
+          "high": 5269.1001,
+          "low": 4911.2798,
+          "open": 5263.2598
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unverified",
+      "exchange_timezone": "Asia/Seoul",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T06:45:00Z",
+      "id": "kospi",
+      "input_close_at": "2026-11-06T06:30:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "韩国 KOSPI",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:kospi:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": true,
+      "risk": {
+        "continuous_rank": 0.5887700534759358,
+        "discrete_rank": 0.9982620320855615,
+        "model_signal": true,
+        "score": 0.9081737967914439
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:28.516950Z",
+      "target_close_at": "2026-11-09T06:30:00Z",
+      "target_open_at": "2026-11-09T00:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XASX",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 8783.2,
+          "date": "2026-10-12",
+          "high": 8793.9,
+          "low": 8716.6,
+          "open": 8716.6
+        },
+        {
+          "close": 8783.9,
+          "date": "2026-10-13",
+          "high": 8800.7,
+          "low": 8738.8,
+          "open": 8783.2
+        },
+        {
+          "close": 8727.9,
+          "date": "2026-10-14",
+          "high": 8783.9,
+          "low": 8698.3,
+          "open": 8783.9
+        },
+        {
+          "close": 8719.7,
+          "date": "2026-10-15",
+          "high": 8735.9,
+          "low": 8641.1,
+          "open": 8727.9
+        },
+        {
+          "close": 8806.7,
+          "date": "2026-10-16",
+          "high": 8824.5,
+          "low": 8719.7,
+          "open": 8719.7
+        },
+        {
+          "close": 8845.7,
+          "date": "2026-10-19",
+          "high": 8849.9,
+          "low": 8800.9,
+          "open": 8806.7
+        },
+        {
+          "close": 8816.9,
+          "date": "2026-10-20",
+          "high": 8845.7,
+          "low": 8747.3,
+          "open": 8845.7
+        },
+        {
+          "close": 8831.3,
+          "date": "2026-10-21",
+          "high": 8841.9,
+          "low": 8795.9,
+          "open": 8816.9
+        },
+        {
+          "close": 8793.2,
+          "date": "2026-10-22",
+          "high": 8831.3,
+          "low": 8764.0,
+          "open": 8831.3
+        },
+        {
+          "close": 8795.2,
+          "date": "2026-10-23",
+          "high": 8795.2,
+          "low": 8752.6,
+          "open": 8793.2
+        },
+        {
+          "close": 8809.9,
+          "date": "2026-10-26",
+          "high": 8817.7,
+          "low": 8722.9,
+          "open": 8795.2
+        },
+        {
+          "close": 8850.1,
+          "date": "2026-10-27",
+          "high": 8858.9,
+          "low": 8773.4,
+          "open": 8809.9
+        },
+        {
+          "close": 8847.3,
+          "date": "2026-10-28",
+          "high": 8937.0,
+          "low": 8846.7,
+          "open": 8850.1
+        },
+        {
+          "close": 8891.8,
+          "date": "2026-10-29",
+          "high": 8901.6,
+          "low": 8847.3,
+          "open": 8847.3
+        },
+        {
+          "close": 8908.1,
+          "date": "2026-10-30",
+          "high": 8992.7,
+          "low": 8891.8,
+          "open": 8891.8
+        },
+        {
+          "close": 8856.5,
+          "date": "2026-11-02",
+          "high": 8908.6,
+          "low": 8841.7,
+          "open": 8867.3
+        },
+        {
+          "close": 8886.8,
+          "date": "2026-11-03",
+          "high": 8909.1,
+          "low": 8843.3,
+          "open": 8856.5
+        },
+        {
+          "close": 8834.5,
+          "date": "2026-11-04",
+          "high": 8886.8,
+          "low": 8802.1,
+          "open": 8886.8
+        },
+        {
+          "close": 9065.1,
+          "date": "2026-11-05",
+          "high": 9065.1,
+          "low": 8834.5,
+          "open": 8834.5
+        },
+        {
+          "close": 9008.5,
+          "date": "2026-11-06",
+          "high": 9065.1,
+          "low": 8923.3,
+          "open": 9065.1
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unverified",
+      "exchange_timezone": "Australia/Sydney",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T05:15:00Z",
+      "id": "asx200",
+      "input_close_at": "2026-11-06T05:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "澳洲 ASX 200",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T11-03-12Z-1c64414d9218:asx200:2026-11-06",
+      "prediction_run_id": "2026-11-08T11-03-12Z",
+      "quality_issues": [
+        "finality_unconfirmed"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": 0.2441844919786096,
+        "discrete_rank": 0.4303475935828877,
+        "model_signal": false,
+        "score": 0.38939171122994654
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T11:03:33.935599Z",
+      "target_close_at": "2026-11-09T05:00:00Z",
+      "target_open_at": "2026-11-08T23:00:00Z",
+      "target_session_date": "2026-11-09"
+    },
+    {
+      "calendar_id": "XBOM",
+      "calendar_version": "4.13.2",
+      "candles": [
+        {
+          "close": 72472.33,
+          "date": "2026-10-09",
+          "high": 72669.2,
+          "low": 71739.49,
+          "open": 71776.67
+        },
+        {
+          "close": 71924.68,
+          "date": "2026-10-12",
+          "high": 72884.25,
+          "low": 71676.1,
+          "open": 72771.32
+        },
+        {
+          "close": 73033.78,
+          "date": "2026-10-13",
+          "high": 73045.67,
+          "low": 71703.56,
+          "open": 71951.73
+        },
+        {
+          "close": 72781.89,
+          "date": "2026-10-14",
+          "high": 73195.26,
+          "low": 72578.75,
+          "open": 73049.76
+        },
+        {
+          "close": 74315.61,
+          "date": "2026-10-15",
+          "high": 74330.29,
+          "low": 72896.38,
+          "open": 72965.8
+        },
+        {
+          "close": 74729.27,
+          "date": "2026-10-16",
+          "high": 74778.78,
+          "low": 74012.99,
+          "open": 74341.08
+        },
+        {
+          "close": 73852.9,
+          "date": "2026-10-19",
+          "high": 74849.75,
+          "low": 73708.54,
+          "open": 74849.3
+        },
+        {
+          "close": 73709.69,
+          "date": "2026-10-21",
+          "high": 74682.19,
+          "low": 73229.45,
+          "open": 74337.93
+        },
+        {
+          "close": 73249.39,
+          "date": "2026-10-22",
+          "high": 73720.83,
+          "low": 73005.11,
+          "open": 73343.33
+        },
+        {
+          "close": 73123.83,
+          "date": "2026-10-23",
+          "high": 73766.51,
+          "low": 72452.37,
+          "open": 73665.64
+        },
+        {
+          "close": 73606.75,
+          "date": "2026-10-26",
+          "high": 73606.75,
+          "low": 72514.57,
+          "open": 72990.04
+        },
+        {
+          "close": 73598.67,
+          "date": "2026-10-27",
+          "high": 73762.98,
+          "low": 73179.41,
+          "open": 73484.38
+        },
+        {
+          "close": 73246.03,
+          "date": "2026-10-28",
+          "high": 73525.44,
+          "low": 72603.57,
+          "open": 73253.44
+        },
+        {
+          "close": 74151.04,
+          "date": "2026-10-29",
+          "high": 74166.16,
+          "low": 73181.9,
+          "open": 73268.47
+        },
+        {
+          "close": 74459.53,
+          "date": "2026-10-30",
+          "high": 74742.59,
+          "low": 74082.03,
+          "open": 74199.69
+        },
+        {
+          "close": 75692.7813,
+          "date": "2026-11-02",
+          "high": 75692.7813,
+          "low": 74978.1172,
+          "open": 75178.2422
+        },
+        {
+          "close": 76917.8516,
+          "date": "2026-11-03",
+          "high": 76917.8516,
+          "low": 76033.7422,
+          "open": 76288.6484
+        },
+        {
+          "close": 77301.3984,
+          "date": "2026-11-04",
+          "high": 77396.0391,
+          "low": 76604.8516,
+          "open": 76853.1094
+        },
+        {
+          "close": 79310.0078,
+          "date": "2026-11-05",
+          "high": 79470.0313,
+          "low": 78520.5625,
+          "open": 78910.9375
+        },
+        {
+          "close": 81028.0234,
+          "date": "2026-11-06",
+          "high": 81028.0234,
+          "low": 79016.0469,
+          "open": 79413.6563
+        }
+      ],
+      "coverage": "experimental",
+      "data_status": "unavailable",
+      "exchange_timezone": "Asia/Kolkata",
+      "expected_session_date": "2026-11-06",
+      "finality_source": "unknown",
+      "fresh_until": "2026-11-09T10:15:00Z",
+      "id": "sensex",
+      "input_close_at": "2026-11-06T10:00:00Z",
+      "input_session_date": "2026-11-06",
+      "is_final": null,
+      "name": "印度 SENSEX",
+      "notification_eligible": false,
+      "prediction_id": "2026-11-08T02-03-40Z-303848d0f63a:sensex:2026-11-06",
+      "prediction_run_id": "2026-11-08T02-03-40Z",
+      "quality_issues": [
+        "update_skipped",
+        "source_unavailable"
+      ],
+      "reference_alert_eligible": false,
+      "risk": {
+        "continuous_rank": null,
+        "discrete_rank": null,
+        "model_signal": null,
+        "score": null
+      },
+      "session_status": "current",
+      "source_received_at": "2026-11-08T02:03:56.259122Z",
+      "target_close_at": "2026-11-09T10:00:00Z",
+      "target_open_at": "2026-11-09T03:45:00Z",
+      "target_session_date": "2026-11-09"
+    }
+  ],
+  "model": {
+    "continuous_weight": 0.22,
+    "decision_threshold": 0.52713369,
+    "discrete_weight": 0.78,
+    "id": "septoken-cont2337-disc5337-v1",
+    "input_feature_order": [
+      "open",
+      "close",
+      "high",
+      "low"
+    ],
+    "lookback": 10,
+    "score_kind": "weighted_validation_rank"
+  },
+  "performance": {
+    "baseline": {
+      "hits": 2141,
+      "period_end": "2024-12-31",
+      "period_start": "2019-01-01",
+      "rate": 0.1431149732620321,
+      "samples": 14960
+    },
+    "evaluable_predictions": 289,
+    "evaluation_end_date": "2026-11-06",
+    "evaluation_start_date": "2026-09-30",
+    "event": "next_session_return_lt_minus_0_01",
+    "excluded_counts": {
+      "target_not_closed": 16
+    },
+    "generated_at": "2026-11-08T11:03:44.125483Z",
+    "is_prospective": false,
+    "method": "latest_per_input_session_next_exchange_close",
+    "paths": [
+      {
+        "id": "fused",
+        "thresholds": [
+          {
+            "hit_count": 26,
+            "hit_rate": 0.2765957446808511,
+            "signal_count": 94,
+            "threshold": 0.7
+          },
+          {
+            "hit_count": 22,
+            "hit_rate": 0.2716049382716049,
+            "signal_count": 81,
+            "threshold": 0.75
+          },
+          {
+            "hit_count": 15,
+            "hit_rate": 0.24193548387096775,
+            "signal_count": 62,
+            "threshold": 0.8
+          },
+          {
+            "hit_count": 10,
+            "hit_rate": 0.21739130434782608,
+            "signal_count": 46,
+            "threshold": 0.85
+          }
+        ]
+      },
+      {
+        "id": "continuous",
+        "thresholds": [
+          {
+            "hit_count": 25,
+            "hit_rate": 0.22321428571428573,
+            "signal_count": 112,
+            "threshold": 0.7
+          },
+          {
+            "hit_count": 23,
+            "hit_rate": 0.23232323232323232,
+            "signal_count": 99,
+            "threshold": 0.75
+          },
+          {
+            "hit_count": 20,
+            "hit_rate": 0.21978021978021978,
+            "signal_count": 91,
+            "threshold": 0.8
+          },
+          {
+            "hit_count": 17,
+            "hit_rate": 0.24285714285714285,
+            "signal_count": 70,
+            "threshold": 0.85
+          }
+        ]
+      },
+      {
+        "id": "discrete",
+        "thresholds": [
+          {
+            "hit_count": 28,
+            "hit_rate": 0.2616822429906542,
+            "signal_count": 107,
+            "threshold": 0.7
+          },
+          {
+            "hit_count": 26,
+            "hit_rate": 0.2826086956521739,
+            "signal_count": 92,
+            "threshold": 0.75
+          },
+          {
+            "hit_count": 20,
+            "hit_rate": 0.28169014084507044,
+            "signal_count": 71,
+            "threshold": 0.8
+          },
+          {
+            "hit_count": 17,
+            "hit_rate": 0.29310344827586204,
+            "signal_count": 58,
+            "threshold": 0.85
+          }
+        ]
+      }
+    ],
+    "schema_version": 1,
+    "source_run_id": "2026-11-08T11-03-12Z",
+    "unique_predictions": 305
+  },
+  "published_at": "2026-11-08T11:03:47.852983Z",
+  "release_seq": 12,
+  "schema_version": 1,
+  "snapshot_id": "2026-11-08T11-03-12Z-1c64414d9218",
+  "source_output_sha256": "1c64414d9218ccd9984c229f4fb8372d6b63b175bde1aa0948689fcaa957dd42",
+  "source_run_id": "2026-11-08T11-03-12Z",
+  "unavailable_markets": [
+    {
+      "id": "sensex",
+      "reason": "source_unavailable"
+    }
+  ]
+}
