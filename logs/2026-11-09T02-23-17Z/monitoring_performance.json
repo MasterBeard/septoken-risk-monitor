@@ -1,0 +1,160 @@
+{
+  "definition": "retrospective latest prediction per market/input session; next exchange session close, observed after close plus delivery buffer",
+  "unique_predictions": 305,
+  "evaluable_predictions": 289,
+  "evaluation_start_date": "2026-09-30",
+  "evaluation_end_date": "2026-11-06",
+  "validation_baseline": {
+    "period": "2019-01-01 to 2024-12-31",
+    "samples": 14960,
+    "downside_over_1pct_count": 2141,
+    "downside_over_1pct_rate": 0.1431149732620321,
+    "any_decline_count": 7013,
+    "any_decline_rate": 0.4687834224598931
+  },
+  "thresholds": [
+    {
+      "threshold": 0.7,
+      "evaluable_count": 94,
+      "downside_over_1pct_count": 26,
+      "downside_over_1pct_rate": 0.2765957446808511,
+      "any_decline_count": 48,
+      "any_decline_rate": 0.5106382978723404
+    },
+    {
+      "threshold": 0.75,
+      "evaluable_count": 81,
+      "downside_over_1pct_count": 22,
+      "downside_over_1pct_rate": 0.2716049382716049,
+      "any_decline_count": 41,
+      "any_decline_rate": 0.5061728395061729
+    },
+    {
+      "threshold": 0.8,
+      "evaluable_count": 62,
+      "downside_over_1pct_count": 15,
+      "downside_over_1pct_rate": 0.24193548387096775,
+      "any_decline_count": 30,
+      "any_decline_rate": 0.4838709677419355
+    },
+    {
+      "threshold": 0.85,
+      "evaluable_count": 46,
+      "downside_over_1pct_count": 10,
+      "downside_over_1pct_rate": 0.21739130434782608,
+      "any_decline_count": 21,
+      "any_decline_rate": 0.45652173913043476
+    }
+  ],
+  "path_comparison": {
+    "schema_version": 1,
+    "source_run_id": "2026-11-09T02-23-17Z",
+    "generated_at": "2026-11-09T02:23:46.705509Z",
+    "event": "next_session_return_lt_minus_0_01",
+    "is_prospective": false,
+    "method": "latest_per_input_session_next_exchange_close",
+    "unique_predictions": 305,
+    "evaluable_predictions": 289,
+    "excluded_counts": {
+      "target_not_closed": 16
+    },
+    "evaluation_start_date": "2026-09-30",
+    "evaluation_end_date": "2026-11-06",
+    "paths": [
+      {
+        "id": "fused",
+        "thresholds": [
+          {
+            "threshold": 0.7,
+            "signal_count": 94,
+            "hit_count": 26,
+            "hit_rate": 0.2765957446808511
+          },
+          {
+            "threshold": 0.75,
+            "signal_count": 81,
+            "hit_count": 22,
+            "hit_rate": 0.2716049382716049
+          },
+          {
+            "threshold": 0.8,
+            "signal_count": 62,
+            "hit_count": 15,
+            "hit_rate": 0.24193548387096775
+          },
+          {
+            "threshold": 0.85,
+            "signal_count": 46,
+            "hit_count": 10,
+            "hit_rate": 0.21739130434782608
+          }
+        ]
+      },
+      {
+        "id": "continuous",
+        "thresholds": [
+          {
+            "threshold": 0.7,
+            "signal_count": 112,
+            "hit_count": 25,
+            "hit_rate": 0.22321428571428573
+          },
+          {
+            "threshold": 0.75,
+            "signal_count": 99,
+            "hit_count": 23,
+            "hit_rate": 0.23232323232323232
+          },
+          {
+            "threshold": 0.8,
+            "signal_count": 91,
+            "hit_count": 20,
+            "hit_rate": 0.21978021978021978
+          },
+          {
+            "threshold": 0.85,
+            "signal_count": 70,
+            "hit_count": 17,
+            "hit_rate": 0.24285714285714285
+          }
+        ]
+      },
+      {
+        "id": "discrete",
+        "thresholds": [
+          {
+            "threshold": 0.7,
+            "signal_count": 107,
+            "hit_count": 28,
+            "hit_rate": 0.2616822429906542
+          },
+          {
+            "threshold": 0.75,
+            "signal_count": 92,
+            "hit_count": 26,
+            "hit_rate": 0.2826086956521739
+          },
+          {
+            "threshold": 0.8,
+            "signal_count": 71,
+            "hit_count": 20,
+            "hit_rate": 0.28169014084507044
+          },
+          {
+            "threshold": 0.85,
+            "signal_count": 58,
+            "hit_count": 17,
+            "hit_rate": 0.29310344827586204
+          }
+        ]
+      }
+    ],
+    "baseline": {
+      "samples": 14960,
+      "hits": 2141,
+      "rate": 0.1431149732620321,
+      "period_start": "2019-01-01",
+      "period_end": "2024-12-31"
+    }
+  }
+}
