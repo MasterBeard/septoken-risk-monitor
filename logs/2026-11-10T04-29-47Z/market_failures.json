@@ -1,0 +1,8 @@
+{
+  "sensex": {
+    "stage": "source",
+    "error_type": "ValueError",
+    "error": "Invalid model window for sensex: ['not_a_session']",
+    "failed_at": "2026-11-10T04:30:09.453281Z"
+  }
+}
