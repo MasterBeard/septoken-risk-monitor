@@ -1,0 +1,14 @@
+{
+  "kospi": {
+    "stage": "source",
+    "error_type": "ValueError",
+    "error": "Invalid OHLC in model input; refusing to silently use an older row: [{\"date\": \"2026-11-13\", \"open\": \"5452.4102\", \"close\": \"0.0\", \"high\": \"5504.4399\", \"low\": \"5259.0898\"}]",
+    "failed_at": "2026-11-14T01:27:46.459085Z"
+  },
+  "sensex": {
+    "stage": "source",
+    "error_type": "ValueError",
+    "error": "Invalid model window for sensex: ['not_a_session']",
+    "failed_at": "2026-11-14T01:27:47.335912Z"
+  }
+}
