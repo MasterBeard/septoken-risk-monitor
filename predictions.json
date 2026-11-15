@@ -1,10 +1,10 @@
 {
-  "run_id": "2026-11-15T01-02-21Z",
-  "updated_at": "2026-11-15 01:02 UTC",
+  "run_id": "2026-11-15T10-23-05Z",
+  "updated_at": "2026-11-15 10:23 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-15T01:02:21.681073Z",
-  "generated_at": "2026-11-15T01:02:38.303823Z",
+  "generation_started_at": "2026-11-15T10:23:05.670773Z",
+  "generated_at": "2026-11-15T10:23:31.050210Z",
   "markets": [
     {
       "id": "sp500",
@@ -160,7 +160,7 @@
           "low": 7499.3999
         }
       ],
-      "source_received_at": "2026-11-15T01:02:23.476914Z",
+      "source_received_at": "2026-11-15T10:23:12.330823Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -318,7 +318,7 @@
           "low": 52017.8594
         }
       ],
-      "source_received_at": "2026-11-15T01:02:23.841723Z",
+      "source_received_at": "2026-11-15T10:23:12.569741Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -476,7 +476,7 @@
           "low": 26678.35
         }
       ],
-      "source_received_at": "2026-11-15T01:02:26.040552Z",
+      "source_received_at": "2026-11-15T10:23:16.371573Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -634,7 +634,7 @@
           "low": 10836.63
         }
       ],
-      "source_received_at": "2026-11-15T01:02:27.429932Z",
+      "source_received_at": "2026-11-15T10:23:18.145730Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -792,7 +792,7 @@
           "low": 8337.9
         }
       ],
-      "source_received_at": "2026-11-15T01:02:28.322941Z",
+      "source_received_at": "2026-11-15T10:23:19.247609Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -916,41 +916,41 @@
         },
         {
           "date": "2026-11-09",
-          "open": 57960.7,
+          "open": 57960.6992,
           "close": 58775.5,
-          "high": 59440.18,
-          "low": 57775.16
+          "high": 59440.1797,
+          "low": 57775.1602
         },
         {
           "date": "2026-11-10",
-          "open": 59372.28,
-          "close": 60459.58,
-          "high": 60743.97,
-          "low": 59268.43
+          "open": 59372.2813,
+          "close": 60459.5781,
+          "high": 60743.9688,
+          "low": 59268.4297
         },
         {
           "date": "2026-11-11",
-          "open": 60525.3,
-          "close": 61248.59,
-          "high": 61390.79,
-          "low": 60318.08
+          "open": 60525.3008,
+          "close": 61248.5898,
+          "high": 61390.7891,
+          "low": 60318.0781
         },
         {
           "date": "2026-11-12",
-          "open": 61475.11,
-          "close": 60819.36,
-          "high": 61788.44,
-          "low": 60643.79
+          "open": 61475.1094,
+          "close": 60819.3594,
+          "high": 61788.4414,
+          "low": 60643.7891
         },
         {
           "date": "2026-11-13",
-          "open": 61223.41,
-          "close": 61142.35,
+          "open": 61223.4102,
+          "close": 61142.3516,
           "high": 61902.5,
-          "low": 61082.23
+          "low": 61082.2305
         }
       ],
-      "source_received_at": "2026-11-15T01:02:29.713731Z",
+      "source_received_at": "2026-11-15T10:23:20.354713Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1108,7 +1108,7 @@
           "low": 23595.36
         }
       ],
-      "source_received_at": "2026-11-15T01:02:30.237323Z",
+      "source_received_at": "2026-11-15T10:23:20.876876Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1266,7 +1266,7 @@
           "low": 3623.841
         }
       ],
-      "source_received_at": "2026-11-15T01:02:30.587067Z",
+      "source_received_at": "2026-11-15T10:23:21.084975Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1424,7 +1424,7 @@
           "low": 4004.497
         }
       ],
-      "source_received_at": "2026-11-15T01:02:30.831451Z",
+      "source_received_at": "2026-11-15T10:23:21.425175Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1582,7 +1582,7 @@
           "low": 24872.4082
         }
       ],
-      "source_received_at": "2026-11-15T01:02:31.144386Z",
+      "source_received_at": "2026-11-15T10:23:21.576401Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1740,7 +1740,7 @@
           "low": 6372.27
         }
       ],
-      "source_received_at": "2026-11-15T01:02:32.034864Z",
+      "source_received_at": "2026-11-15T10:23:22.715041Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1898,7 +1898,7 @@
           "low": 35995.16
         }
       ],
-      "source_received_at": "2026-11-15T01:02:32.755008Z",
+      "source_received_at": "2026-11-15T10:23:23.599436Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2056,7 +2056,7 @@
           "low": 171132.24
         }
       ],
-      "source_received_at": "2026-11-15T01:02:34.213356Z",
+      "source_received_at": "2026-11-15T10:23:24.733053Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2214,7 +2214,7 @@
           "low": 5259.0898
         }
       ],
-      "source_received_at": "2026-11-15T01:02:34.952914Z",
+      "source_received_at": "2026-11-15T10:23:25.855521Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2372,7 +2372,7 @@
           "low": 9057.3
         }
       ],
-      "source_received_at": "2026-11-15T01:02:37.454347Z",
+      "source_received_at": "2026-11-15T10:23:29.965965Z",
       "is_final": null,
       "quality_issues": []
     }
@@ -2433,8 +2433,8 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-15T01-02-21Z",
-      "generated_at": "2026-11-15T01:02:46.064965Z",
+      "source_run_id": "2026-11-15T10-23-05Z",
+      "generated_at": "2026-11-15T10:23:39.366176Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
