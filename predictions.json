@@ -1,10 +1,10 @@
 {
-  "run_id": "2026-11-14T09-48-59Z",
-  "updated_at": "2026-11-14 09:48 UTC",
+  "run_id": "2026-11-15T01-02-21Z",
+  "updated_at": "2026-11-15 01:02 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-14T09:48:59.777314Z",
-  "generated_at": "2026-11-14T09:49:19.799216Z",
+  "generation_started_at": "2026-11-15T01:02:21.681073Z",
+  "generated_at": "2026-11-15T01:02:38.303823Z",
   "markets": [
     {
       "id": "sp500",
@@ -160,7 +160,7 @@
           "low": 7499.3999
         }
       ],
-      "source_received_at": "2026-11-14T09:49:04.243404Z",
+      "source_received_at": "2026-11-15T01:02:23.476914Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -318,7 +318,7 @@
           "low": 52017.8594
         }
       ],
-      "source_received_at": "2026-11-14T09:49:04.667609Z",
+      "source_received_at": "2026-11-15T01:02:23.841723Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -476,7 +476,7 @@
           "low": 26678.35
         }
       ],
-      "source_received_at": "2026-11-14T09:49:05.985727Z",
+      "source_received_at": "2026-11-15T01:02:26.040552Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -634,7 +634,7 @@
           "low": 10836.63
         }
       ],
-      "source_received_at": "2026-11-14T09:49:06.882826Z",
+      "source_received_at": "2026-11-15T01:02:27.429932Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -792,7 +792,7 @@
           "low": 8337.9
         }
       ],
-      "source_received_at": "2026-11-14T09:49:07.645233Z",
+      "source_received_at": "2026-11-15T01:02:28.322941Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -950,7 +950,7 @@
           "low": 61082.23
         }
       ],
-      "source_received_at": "2026-11-14T09:49:08.551877Z",
+      "source_received_at": "2026-11-15T01:02:29.713731Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1108,7 +1108,7 @@
           "low": 23595.36
         }
       ],
-      "source_received_at": "2026-11-14T09:49:09.225041Z",
+      "source_received_at": "2026-11-15T01:02:30.237323Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1266,7 +1266,7 @@
           "low": 3623.841
         }
       ],
-      "source_received_at": "2026-11-14T09:49:09.896712Z",
+      "source_received_at": "2026-11-15T01:02:30.587067Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1424,7 +1424,7 @@
           "low": 4004.497
         }
       ],
-      "source_received_at": "2026-11-14T09:49:10.169375Z",
+      "source_received_at": "2026-11-15T01:02:30.831451Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1582,7 +1582,7 @@
           "low": 24872.4082
         }
       ],
-      "source_received_at": "2026-11-14T09:49:10.741647Z",
+      "source_received_at": "2026-11-15T01:02:31.144386Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1740,7 +1740,7 @@
           "low": 6372.27
         }
       ],
-      "source_received_at": "2026-11-14T09:49:11.431734Z",
+      "source_received_at": "2026-11-15T01:02:32.034864Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1898,7 +1898,7 @@
           "low": 35995.16
         }
       ],
-      "source_received_at": "2026-11-14T09:49:13.174101Z",
+      "source_received_at": "2026-11-15T01:02:32.755008Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2056,7 +2056,7 @@
           "low": 171132.24
         }
       ],
-      "source_received_at": "2026-11-14T09:49:13.943144Z",
+      "source_received_at": "2026-11-15T01:02:34.213356Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2214,7 +2214,7 @@
           "low": 5259.0898
         }
       ],
-      "source_received_at": "2026-11-14T09:49:15.401375Z",
+      "source_received_at": "2026-11-15T01:02:34.952914Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2372,7 +2372,7 @@
           "low": 9057.3
         }
       ],
-      "source_received_at": "2026-11-14T09:49:18.751636Z",
+      "source_received_at": "2026-11-15T01:02:37.454347Z",
       "is_final": null,
       "quality_issues": []
     }
@@ -2433,8 +2433,8 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-14T09-48-59Z",
-      "generated_at": "2026-11-14T09:49:29.657061Z",
+      "source_run_id": "2026-11-15T01-02-21Z",
+      "generated_at": "2026-11-15T01:02:46.064965Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
