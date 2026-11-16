@@ -1,8 +1,8 @@
 {
-  "published_at": "2026-11-15T10:23:42.856668Z",
-  "release_seq": 24,
+  "published_at": "2026-11-16T01:01:38.624973Z",
+  "release_seq": 25,
   "schema_version": 1,
-  "sha256": "f2392a5323909fd6e7f71d0a4aaec72e5e6953f41ea78f996a7319a5dc1517e7",
-  "snapshot_id": "2026-11-15T10-23-05Z-444e26990100",
-  "snapshot_path": "snapshots/f2392a5323909fd6e7f71d0a4aaec72e5e6953f41ea78f996a7319a5dc1517e7.json"
+  "sha256": "e96c6ac1a712972d5f34a30f7a34343d914a9e8951892be655ee62e970938247",
+  "snapshot_id": "2026-11-16T01-01-10Z-e3ea533f766c",
+  "snapshot_path": "snapshots/e96c6ac1a712972d5f34a30f7a34343d914a9e8951892be655ee62e970938247.json"
 }

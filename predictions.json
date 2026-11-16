@@ -1,10 +1,10 @@
 {
-  "run_id": "2026-11-15T10-23-05Z",
-  "updated_at": "2026-11-15 10:23 UTC",
+  "run_id": "2026-11-16T01-01-10Z",
+  "updated_at": "2026-11-16 01:01 UTC",
   "model_version": "Continuous 22% + Discrete 78% · Seeds 2337 / 5337",
   "threshold": 0.52713369,
-  "generation_started_at": "2026-11-15T10:23:05.670773Z",
-  "generated_at": "2026-11-15T10:23:31.050210Z",
+  "generation_started_at": "2026-11-16T01:01:10.344149Z",
+  "generated_at": "2026-11-16T01:01:25.850491Z",
   "markets": [
     {
       "id": "sp500",
@@ -160,7 +160,7 @@
           "low": 7499.3999
         }
       ],
-      "source_received_at": "2026-11-15T10:23:12.330823Z",
+      "source_received_at": "2026-11-16T01:01:11.917105Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -318,7 +318,7 @@
           "low": 52017.8594
         }
       ],
-      "source_received_at": "2026-11-15T10:23:12.569741Z",
+      "source_received_at": "2026-11-16T01:01:12.227670Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -476,7 +476,7 @@
           "low": 26678.35
         }
       ],
-      "source_received_at": "2026-11-15T10:23:16.371573Z",
+      "source_received_at": "2026-11-16T01:01:13.362463Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -634,7 +634,7 @@
           "low": 10836.63
         }
       ],
-      "source_received_at": "2026-11-15T10:23:18.145730Z",
+      "source_received_at": "2026-11-16T01:01:14.353541Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -792,7 +792,7 @@
           "low": 8337.9
         }
       ],
-      "source_received_at": "2026-11-15T10:23:19.247609Z",
+      "source_received_at": "2026-11-16T01:01:15.357423Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -916,41 +916,41 @@
         },
         {
           "date": "2026-11-09",
-          "open": 57960.6992,
+          "open": 57960.7,
           "close": 58775.5,
-          "high": 59440.1797,
-          "low": 57775.1602
+          "high": 59440.18,
+          "low": 57775.16
         },
         {
           "date": "2026-11-10",
-          "open": 59372.2813,
-          "close": 60459.5781,
-          "high": 60743.9688,
-          "low": 59268.4297
+          "open": 59372.28,
+          "close": 60459.58,
+          "high": 60743.97,
+          "low": 59268.43
         },
         {
           "date": "2026-11-11",
-          "open": 60525.3008,
-          "close": 61248.5898,
-          "high": 61390.7891,
-          "low": 60318.0781
+          "open": 60525.3,
+          "close": 61248.59,
+          "high": 61390.79,
+          "low": 60318.08
         },
         {
           "date": "2026-11-12",
-          "open": 61475.1094,
-          "close": 60819.3594,
-          "high": 61788.4414,
-          "low": 60643.7891
+          "open": 61475.11,
+          "close": 60819.36,
+          "high": 61788.44,
+          "low": 60643.79
         },
         {
           "date": "2026-11-13",
-          "open": 61223.4102,
-          "close": 61142.3516,
+          "open": 61223.41,
+          "close": 61142.35,
           "high": 61902.5,
-          "low": 61082.2305
+          "low": 61082.23
         }
       ],
-      "source_received_at": "2026-11-15T10:23:20.354713Z",
+      "source_received_at": "2026-11-16T01:01:16.350565Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1108,7 +1108,7 @@
           "low": 23595.36
         }
       ],
-      "source_received_at": "2026-11-15T10:23:20.876876Z",
+      "source_received_at": "2026-11-16T01:01:16.588410Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1266,7 +1266,7 @@
           "low": 3623.841
         }
       ],
-      "source_received_at": "2026-11-15T10:23:21.084975Z",
+      "source_received_at": "2026-11-16T01:01:16.902937Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1424,7 +1424,7 @@
           "low": 4004.497
         }
       ],
-      "source_received_at": "2026-11-15T10:23:21.425175Z",
+      "source_received_at": "2026-11-16T01:01:17.078432Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1582,7 +1582,7 @@
           "low": 24872.4082
         }
       ],
-      "source_received_at": "2026-11-15T10:23:21.576401Z",
+      "source_received_at": "2026-11-16T01:01:17.326507Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1740,7 +1740,7 @@
           "low": 6372.27
         }
       ],
-      "source_received_at": "2026-11-15T10:23:22.715041Z",
+      "source_received_at": "2026-11-16T01:01:18.310635Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -1898,7 +1898,7 @@
           "low": 35995.16
         }
       ],
-      "source_received_at": "2026-11-15T10:23:23.599436Z",
+      "source_received_at": "2026-11-16T01:01:19.918824Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2056,7 +2056,7 @@
           "low": 171132.24
         }
       ],
-      "source_received_at": "2026-11-15T10:23:24.733053Z",
+      "source_received_at": "2026-11-16T01:01:20.931488Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2180,10 +2180,10 @@
         },
         {
           "date": "2026-11-09",
-          "open": 5034.2002,
-          "close": 5018.8501,
-          "high": 5172.9399,
-          "low": 4990.6602
+          "open": 5034.2,
+          "close": 5018.85,
+          "high": 5172.94,
+          "low": 4990.66
         },
         {
           "date": "2026-11-10",
@@ -2214,7 +2214,7 @@
           "low": 5259.0898
         }
       ],
-      "source_received_at": "2026-11-15T10:23:25.855521Z",
+      "source_received_at": "2026-11-16T01:01:21.957862Z",
       "is_final": null,
       "quality_issues": []
     },
@@ -2372,7 +2372,7 @@
           "low": 9057.3
         }
       ],
-      "source_received_at": "2026-11-15T10:23:29.965965Z",
+      "source_received_at": "2026-11-16T01:01:24.892385Z",
       "is_final": null,
       "quality_issues": []
     }
@@ -2433,8 +2433,8 @@
     ],
     "path_comparison": {
       "schema_version": 1,
-      "source_run_id": "2026-11-15T10-23-05Z",
-      "generated_at": "2026-11-15T10:23:39.366176Z",
+      "source_run_id": "2026-11-16T01-01-10Z",
+      "generated_at": "2026-11-16T01:01:35.934041Z",
       "event": "next_session_return_lt_minus_0_01",
       "is_prospective": false,
       "method": "latest_per_input_session_next_exchange_close",
